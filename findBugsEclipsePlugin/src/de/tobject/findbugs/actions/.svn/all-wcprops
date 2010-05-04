@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/10949/trunk/eclipsePlugin/src/de/tobject/findbugs/actions
+END
+FindBugsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/10949/trunk/eclipsePlugin/src/de/tobject/findbugs/actions/FindBugsAction.java
+END
+ShowInPackageExplorerAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/10619/trunk/eclipsePlugin/src/de/tobject/findbugs/actions/ShowInPackageExplorerAction.java
+END
+ExpandAllAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/10358/trunk/eclipsePlugin/src/de/tobject/findbugs/actions/ExpandAllAction.java
+END
+FindBugsEditorAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/10949/trunk/eclipsePlugin/src/de/tobject/findbugs/actions/FindBugsEditorAction.java
+END
+GoUpAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/10391/trunk/eclipsePlugin/src/de/tobject/findbugs/actions/GoUpAction.java
+END
+ClearMarkersAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/10949/trunk/eclipsePlugin/src/de/tobject/findbugs/actions/ClearMarkersAction.java
+END
+OpenPropertiesAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/10565/trunk/eclipsePlugin/src/de/tobject/findbugs/actions/OpenPropertiesAction.java
+END
+SaveXmlAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/10896/trunk/eclipsePlugin/src/de/tobject/findbugs/actions/SaveXmlAction.java
+END
+CopyMarkerDetailsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/10288/trunk/eclipsePlugin/src/de/tobject/findbugs/actions/CopyMarkerDetailsAction.java
+END
+ClearMarkersEditorAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/10949/trunk/eclipsePlugin/src/de/tobject/findbugs/actions/ClearMarkersEditorAction.java
+END
+FilterPatternAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/10632/trunk/eclipsePlugin/src/de/tobject/findbugs/actions/FilterPatternAction.java
+END
+FilterBugsDialogAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/10579/trunk/eclipsePlugin/src/de/tobject/findbugs/actions/FilterBugsDialogAction.java
+END
+GroupByAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/10391/trunk/eclipsePlugin/src/de/tobject/findbugs/actions/GroupByAction.java
+END
+MarkerRulerAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/10595/trunk/eclipsePlugin/src/de/tobject/findbugs/actions/MarkerRulerAction.java
+END
+RefreshAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/10391/trunk/eclipsePlugin/src/de/tobject/findbugs/actions/RefreshAction.java
+END
+OpenGroupDialogAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/10391/trunk/eclipsePlugin/src/de/tobject/findbugs/actions/OpenGroupDialogAction.java
+END
+GoIntoAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/10391/trunk/eclipsePlugin/src/de/tobject/findbugs/actions/GoIntoAction.java
+END
+LoadXmlAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/10758/trunk/eclipsePlugin/src/de/tobject/findbugs/actions/LoadXmlAction.java
+END

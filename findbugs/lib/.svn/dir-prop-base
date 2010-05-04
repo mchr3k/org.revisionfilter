@@ -1,0 +1,18 @@
+K 10
+svn:ignore
+V 170
+*.bugs
+*.count
+findbugs-ant.jar
+findbugs.jar
+findbugsGUI.jar
+findbugsAttributes.jar
+findbugsAnnotations.jar
+foo
+log
+foo2
+*.categories
+annotations.jar
+findbugs-full-*.jar
+
+END

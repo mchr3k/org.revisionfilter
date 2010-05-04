@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/12074/trunk/findbugs/src/java/edu/umd/cs/findbugs/cloud/username
+END
+AppEngineNameLookup.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/12074/trunk/findbugs/src/java/edu/umd/cs/findbugs/cloud/username/AppEngineNameLookup.java
+END
+PromptForNameLookup.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/12074/trunk/findbugs/src/java/edu/umd/cs/findbugs/cloud/username/PromptForNameLookup.java
+END
+LocalNameLookup.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/12074/trunk/findbugs/src/java/edu/umd/cs/findbugs/cloud/username/LocalNameLookup.java
+END
+NoNameLookup.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/12074/trunk/findbugs/src/java/edu/umd/cs/findbugs/cloud/username/NoNameLookup.java
+END
+NameLookup.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/12074/trunk/findbugs/src/java/edu/umd/cs/findbugs/cloud/username/NameLookup.java
+END

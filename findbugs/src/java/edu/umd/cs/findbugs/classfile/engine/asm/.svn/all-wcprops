@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9074/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/asm
+END
+ClassReaderAnalysisEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/8361/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/asm/ClassReaderAnalysisEngine.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9074/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/asm/package-info.java
+END
+ClassNodeAnalysisEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/8361/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/asm/ClassNodeAnalysisEngine.java
+END
+EngineRegistrar.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/asm/EngineRegistrar.java
+END

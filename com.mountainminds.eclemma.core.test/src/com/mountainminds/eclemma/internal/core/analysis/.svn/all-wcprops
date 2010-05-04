@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/eclemma/!svn/ver/871/eclemma/trunk/com.mountainminds.eclemma.core.test/src/com/mountainminds/eclemma/internal/core/analysis
+END
+CounterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svnroot/eclemma/!svn/ver/871/eclemma/trunk/com.mountainminds.eclemma.core.test/src/com/mountainminds/eclemma/internal/core/analysis/CounterTest.java
+END
+TypeTraverserTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svnroot/eclemma/!svn/ver/532/eclemma/trunk/com.mountainminds.eclemma.core.test/src/com/mountainminds/eclemma/internal/core/analysis/TypeTraverserTest.java
+END
+MethodLocatorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svnroot/eclemma/!svn/ver/532/eclemma/trunk/com.mountainminds.eclemma.core.test/src/com/mountainminds/eclemma/internal/core/analysis/MethodLocatorTest.java
+END
+SourceSignatureResolverTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svnroot/eclemma/!svn/ver/532/eclemma/trunk/com.mountainminds.eclemma.core.test/src/com/mountainminds/eclemma/internal/core/analysis/SourceSignatureResolverTest.java
+END
+AbstractSignatureResolverTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svnroot/eclemma/!svn/ver/539/eclemma/trunk/com.mountainminds.eclemma.core.test/src/com/mountainminds/eclemma/internal/core/analysis/AbstractSignatureResolverTest.java
+END
+JavaElementCoverageTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svnroot/eclemma/!svn/ver/513/eclemma/trunk/com.mountainminds.eclemma.core.test/src/com/mountainminds/eclemma/internal/core/analysis/JavaElementCoverageTest.java
+END
+BinarySignatureResolverTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svnroot/eclemma/!svn/ver/532/eclemma/trunk/com.mountainminds.eclemma.core.test/src/com/mountainminds/eclemma/internal/core/analysis/BinarySignatureResolverTest.java
+END
+LinesTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svnroot/eclemma/!svn/ver/513/eclemma/trunk/com.mountainminds.eclemma.core.test/src/com/mountainminds/eclemma/internal/core/analysis/LinesTest.java
+END

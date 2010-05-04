@@ -1,0 +1,275 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/11786/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel
+END
+ValueNumberDataflowFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/11750/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/ValueNumberDataflowFactory.java
+END
+JavaClassAnalysisEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/8361/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/JavaClassAnalysisEngine.java
+END
+LiveLocalStoreDataflowFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/10363/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/LiveLocalStoreDataflowFactory.java
+END
+ObligationDataflowFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/10866/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/ObligationDataflowFactory.java
+END
+MethodGenFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/10240/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/MethodGenFactory.java
+END
+LockDataflowFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/8361/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/LockDataflowFactory.java
+END
+MethodBytecodeSetFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/9008/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/MethodBytecodeSetFactory.java
+END
+ConstantDataflowFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/8361/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/ConstantDataflowFactory.java
+END
+LockCheckerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/8361/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/LockCheckerFactory.java
+END
+ReturnPathTypeDataflowFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/ReturnPathTypeDataflowFactory.java
+END
+NonExceptionPostdominatorsAnalysisFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/8361/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/NonExceptionPostdominatorsAnalysisFactory.java
+END
+AnalysisFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/AnalysisFactory.java
+END
+DominatorsAnalysisFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/8361/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/DominatorsAnalysisFactory.java
+END
+DefinitelyNullSetDataflowFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/8361/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/DefinitelyNullSetDataflowFactory.java
+END
+CompactLocationNumberingFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/8361/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/CompactLocationNumberingFactory.java
+END
+NonImplicitExceptionPostDominatorsAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/8229/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/NonImplicitExceptionPostDominatorsAnalysis.java
+END
+NonExceptionPostdominatorsAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/8229/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/NonExceptionPostdominatorsAnalysis.java
+END
+UnconditionalValueDerefDataflowFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/9565/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/UnconditionalValueDerefDataflowFactory.java
+END
+AssertionMethodsFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/8361/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/AssertionMethodsFactory.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/9074/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/package-info.java
+END
+UnpackedBytecodeCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/UnpackedBytecodeCallback.java
+END
+ParameterSignatureListFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/9738/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/ParameterSignatureListFactory.java
+END
+CFGFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/11572/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/CFGFactory.java
+END
+EngineRegistrar.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/11518/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/EngineRegistrar.java
+END
+ClassContextClassAnalysisEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/8361/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/ClassContextClassAnalysisEngine.java
+END
+LoadedFieldSetFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/LoadedFieldSetFactory.java
+END
+ConstantPoolGenFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/8361/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/ConstantPoolGenFactory.java
+END
+NonImplicitExceptionPostDominatorsAnalysisFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/8361/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/NonImplicitExceptionPostDominatorsAnalysisFactory.java
+END
+ReturnPathDataflowFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/8361/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/ReturnPathDataflowFactory.java
+END
+StoreDataflowFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/StoreDataflowFactory.java
+END
+MethodFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9008/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/MethodFactory.java
+END
+ForwardTypeQualifierDataflowFactoryFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/8417/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/ForwardTypeQualifierDataflowFactoryFactory.java
+END
+UnpackedCodeFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/UnpackedCodeFactory.java
+END
+IsNullValueDataflowFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/10819/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/IsNullValueDataflowFactory.java
+END
+CallListDataflowFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/CallListDataflowFactory.java
+END
+BackwardTypeQualifierDataflowFactoryFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/8431/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/BackwardTypeQualifierDataflowFactoryFactory.java
+END
+UnpackedCode.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/UnpackedCode.java
+END
+ReverseDepthFirstSearchFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/ReverseDepthFirstSearchFactory.java
+END
+AssignedFieldMapFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/AssignedFieldMapFactory.java
+END
+BlockTypeAnalysisFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/BlockTypeAnalysisFactory.java
+END
+LoadDataflowFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/8361/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/LoadDataflowFactory.java
+END
+DepthFirstSearchFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/8361/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/DepthFirstSearchFactory.java
+END
+ExceptionSetFactoryFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/8361/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/ExceptionSetFactoryFactory.java
+END
+TypeDataflowFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/11786/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/TypeDataflowFactory.java
+END
+UsagesRequiringNonNullValuesFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/8361/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/engine/bcel/UsagesRequiringNonNullValuesFactory.java
+END

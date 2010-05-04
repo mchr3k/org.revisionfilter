@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9635/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/heap
+END
+FieldSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/heap/FieldSet.java
+END
+StoreAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/heap/StoreAnalysis.java
+END
+LoadDataflow.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/4470/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/heap/LoadDataflow.java
+END
+FieldSetAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/8229/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/heap/FieldSetAnalysis.java
+END
+LoadAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/heap/LoadAnalysis.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9635/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/heap/package-info.java
+END
+StoreDataflow.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/4470/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/heap/StoreDataflow.java
+END

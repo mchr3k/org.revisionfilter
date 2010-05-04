@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/11317/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/obl
+END
+ObligationSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/10616/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/obl/ObligationSet.java
+END
+InstructionActionCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/10239/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/obl/InstructionActionCache.java
+END
+NonexistentObligationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3427/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/obl/NonexistentObligationException.java
+END
+ObligationDataflow.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9815/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/obl/ObligationDataflow.java
+END
+ObligationAcquiredOrReleasedInLoopException.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/9852/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/obl/ObligationAcquiredOrReleasedInLoopException.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9920/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/obl/package.html
+END
+ObligationPolicyDatabaseEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/10181/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/obl/ObligationPolicyDatabaseEntry.java
+END
+ObligationFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/10636/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/obl/ObligationFactory.java
+END
+MatchMethodEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/11317/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/obl/MatchMethodEntry.java
+END
+ObligationPolicyDatabaseEntryType.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/9912/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/obl/ObligationPolicyDatabaseEntryType.java
+END
+State.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9879/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/obl/State.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9074/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/obl/package-info.java
+END
+Obligation.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9914/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/obl/Obligation.java
+END
+ObligationPolicyDatabaseAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/10247/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/obl/ObligationPolicyDatabaseAction.java
+END
+ObligationAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/10194/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/obl/ObligationAnalysis.java
+END
+ObligationPolicyDatabase.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/11317/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/obl/ObligationPolicyDatabase.java
+END
+StateSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/10239/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/obl/StateSet.java
+END
+ObligationPolicyDatabaseActionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/10239/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/obl/ObligationPolicyDatabaseActionType.java
+END

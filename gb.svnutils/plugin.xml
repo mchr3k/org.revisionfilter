@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.console.consoleFactories">
+      <consoleFactory
+            class="gb.svnutils.SvnUtilsConsoleFactory"
+            label="SVN Utils Console">
+      </consoleFactory>
+   </extension>
+   <extension
+         point="org.eclipse.ui.console.consolePageParticipants">
+      <consolePageParticipant
+            class="gb.svnutils.SvnUtilsConsolePageParticipant"
+            id="gb.svnutils.consolePageParticipant">
+         <enablement></enablement>
+      </consolePageParticipant>
+   </extension>
+
+</plugin>

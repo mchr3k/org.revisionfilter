@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/eclemma/!svn/ver/871/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui
+END
+UIPreferences.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/eclemma/!svn/ver/517/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/UIPreferences.java
+END
+EclEmmaUIPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/eclemma/!svn/ver/396/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/EclEmmaUIPlugin.java
+END
+uimessages.properties
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svnroot/eclemma/!svn/ver/871/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/uimessages.properties
+END
+UIMessages.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/eclemma/!svn/ver/871/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/UIMessages.java
+END
+WorkbenchAdapterFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svnroot/eclemma/!svn/ver/12/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/WorkbenchAdapterFactory.java
+END
+ContextHelp.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/eclemma/!svn/ver/434/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/ContextHelp.java
+END

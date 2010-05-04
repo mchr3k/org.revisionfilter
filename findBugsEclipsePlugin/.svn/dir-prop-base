@@ -1,0 +1,24 @@
+K 10
+svn:ignore
+V 246
+.fbwarnings
+bin
+dist
+local.properties
+*.patch
+asm-3.1.jar
+asm-commons-3.1.jar
+asm-tree-3.1.jar
+bcel.jar
+commons-lang-2.4.jar
+dom4j-1.6.1.jar
+findbugs-ant.jar
+jFormatString.jar
+jaxen-1.1.1.jar
+jsr305.jar
+bin_build
+annotations.jar
+findbugs.jar
+lib
+
+END

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<fragment>
+   <extension
+         point="com.mountainminds.eclemma.ui.coverageFilter">
+      <coverageFilter
+            Class="gb.svnfilter.eclemma.SvnLineCoverageFilter">
+      </coverageFilter>
+      <coverageFilter
+            Class="gb.svnfilter.eclemma.SvnMethodCoverageFilter">
+      </coverageFilter>
+   </extension>
+
+</fragment>

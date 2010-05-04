@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/eclemma/!svn/ver/871/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/dialogs
+END
+MergeSessionsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svnroot/eclemma/!svn/ver/372/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/dialogs/MergeSessionsDialog.java
+END
+CoveragePreferencePage.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svnroot/eclemma/!svn/ver/523/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/dialogs/CoveragePreferencePage.java
+END
+ToggleValueFieldEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svnroot/eclemma/!svn/ver/390/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/dialogs/ToggleValueFieldEditor.java
+END
+CoveragePropertyPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svnroot/eclemma/!svn/ver/871/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/dialogs/CoveragePropertyPage.java
+END

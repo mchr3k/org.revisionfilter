@@ -1,0 +1,10 @@
+1. New test type
+
+2. Changed test type
+- Change abstract base test class
+- Change normal base test class
+- Change test class
+
+3. Changed source method
+- Called by new test code
+- Called by existing test code

@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/12102/trunk/findbugs/src/java/edu/umd/cs/findbugs/util
+END
+ExactStringMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9901/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/ExactStringMatcher.java
+END
+DualKeyHashMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/11744/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/DualKeyHashMap.java
+END
+EditDistance.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/11588/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/EditDistance.java
+END
+MapCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/10268/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/MapCache.java
+END
+SubtypeTypeMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/10180/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/SubtypeTypeMatcher.java
+END
+ContainsCamelCaseWordStringMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/9901/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/ContainsCamelCaseWordStringMatcher.java
+END
+HTML.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11502/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/HTML.java
+END
+RegexStringMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9901/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/RegexStringMatcher.java
+END
+Multiset.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/11919/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/Multiset.java
+END
+ClassName.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/11725/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/ClassName.java
+END
+FractionalMultiset.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/11502/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/FractionalMultiset.java
+END
+StringMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9855/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/StringMatcher.java
+END
+TripleKeyHashMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/8388/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/TripleKeyHashMap.java
+END
+ProfilingMapCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/11807/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/ProfilingMapCache.java
+END
+WriteOnceProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/11502/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/WriteOnceProperties.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/12102/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/Util.java
+END
+TestDesktopIntegration.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/12002/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/TestDesktopIntegration.java
+END
+LaunchBrowser.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/12002/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/LaunchBrowser.java
+END
+ClassPathUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/11816/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/ClassPathUtil.java
+END
+Archive.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5886/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/Archive.java
+END
+TopologicalSort.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/11753/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/TopologicalSort.java
+END
+NullIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/11661/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/NullIterator.java
+END
+TypeMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9860/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/TypeMatcher.java
+END
+NotImplementedYetException.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/11647/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/NotImplementedYetException.java
+END
+MultiMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/11589/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/MultiMap.java
+END
+Strings.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/12091/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/Strings.java
+END
+Bag.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/10543/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/Bag.java
+END
+AnyTypeMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9901/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/AnyTypeMatcher.java
+END
+MergeMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/11197/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/MergeMap.java
+END
+JavaWebStart.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/12002/trunk/findbugs/src/java/edu/umd/cs/findbugs/util/JavaWebStart.java
+END

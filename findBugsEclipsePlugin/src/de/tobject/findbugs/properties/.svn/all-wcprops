@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/10949/trunk/eclipsePlugin/src/de/tobject/findbugs/properties
+END
+FilterFilesTab.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/10822/trunk/eclipsePlugin/src/de/tobject/findbugs/properties/FilterFilesTab.java
+END
+FindbugsPropertyPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/10949/trunk/eclipsePlugin/src/de/tobject/findbugs/properties/FindbugsPropertyPage.java
+END
+DetectorConfigurationTab.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/10776/trunk/eclipsePlugin/src/de/tobject/findbugs/properties/DetectorConfigurationTab.java
+END
+ReportConfigurationTab.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/10776/trunk/eclipsePlugin/src/de/tobject/findbugs/properties/ReportConfigurationTab.java
+END

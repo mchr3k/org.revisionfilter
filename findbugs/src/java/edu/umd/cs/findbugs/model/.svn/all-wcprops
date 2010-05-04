@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/10894/trunk/findbugs/src/java/edu/umd/cs/findbugs/model
+END
+SimilarClassSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/model/SimilarClassSet.java
+END
+IdentityClassNameRewriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/model/IdentityClassNameRewriter.java
+END
+RegenerateClassFeatures.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/10894/trunk/findbugs/src/java/edu/umd/cs/findbugs/model/RegenerateClassFeatures.java
+END
+ClassNameRewriterUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9698/trunk/findbugs/src/java/edu/umd/cs/findbugs/model/ClassNameRewriterUtil.java
+END
+ClassNameRewriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/4685/trunk/findbugs/src/java/edu/umd/cs/findbugs/model/ClassNameRewriter.java
+END
+ClassFeatureSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9698/trunk/findbugs/src/java/edu/umd/cs/findbugs/model/ClassFeatureSet.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/4675/trunk/findbugs/src/java/edu/umd/cs/findbugs/model/package.html
+END
+SimilarClassFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/model/SimilarClassFinder.java
+END
+MovedClassMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/model/MovedClassMap.java
+END

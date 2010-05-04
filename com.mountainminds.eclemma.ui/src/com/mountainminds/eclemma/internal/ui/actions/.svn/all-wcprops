@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/eclemma/!svn/ver/384/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/actions
+END
+RefreshSessionAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svnroot/eclemma/!svn/ver/97/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/actions/RefreshSessionAction.java
+END
+ExportSessionAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svnroot/eclemma/!svn/ver/95/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/actions/ExportSessionAction.java
+END
+MergeSessionsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svnroot/eclemma/!svn/ver/97/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/actions/MergeSessionsAction.java
+END
+OpenCoverageConfigurations.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svnroot/eclemma/!svn/ver/12/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/actions/OpenCoverageConfigurations.java
+END
+CoverageContextualLaunchAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svnroot/eclemma/!svn/ver/384/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/actions/CoverageContextualLaunchAction.java
+END
+CoverageHistoryAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svnroot/eclemma/!svn/ver/12/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/actions/CoverageHistoryAction.java
+END
+RemoveActiveSessionAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svnroot/eclemma/!svn/ver/96/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/actions/RemoveActiveSessionAction.java
+END
+RemoveAllSessionsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svnroot/eclemma/!svn/ver/96/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/actions/RemoveAllSessionsAction.java
+END
+ContextualLaunchableTester.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svnroot/eclemma/!svn/ver/217/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/actions/ContextualLaunchableTester.java
+END
+CoverageToolbarAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svnroot/eclemma/!svn/ver/12/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/actions/CoverageToolbarAction.java
+END
+ImportSessionAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svnroot/eclemma/!svn/ver/95/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/actions/ImportSessionAction.java
+END
+CoverageAsAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svnroot/eclemma/!svn/ver/12/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/actions/CoverageAsAction.java
+END
+CoverageLastAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svnroot/eclemma/!svn/ver/350/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/actions/CoverageLastAction.java
+END

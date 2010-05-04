@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/12104/trunk/findbugs
+END
+findbugs.iml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/11944/trunk/findbugs/findbugs.iml
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/11082/trunk/findbugs/.project
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/11620/trunk/findbugs/build.properties
+END
+.pmd
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/5531/trunk/findbugs/.pmd
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12054/trunk/findbugs/build.xml
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/11984/trunk/findbugs/.classpath
+END
+apiJavadoc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/5242/trunk/findbugs/apiJavadoc.xml
+END
+userDict.txt
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/9155/trunk/findbugs/userDict.txt
+END
+annotationJavadoc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/5242/trunk/findbugs/annotationJavadoc.xml
+END
+findbugs.keystore
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/10283/trunk/findbugs/findbugs.keystore
+END
+.fbprefs
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/11082/trunk/findbugs/.fbprefs
+END
+findbugsExclude.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/10104/trunk/findbugs/findbugsExclude.xml
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/9697/trunk/findbugs/README.txt
+END
+.checkstyle
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/5531/trunk/findbugs/.checkstyle
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/10102/trunk/findbugs/.cvsignore
+END
+findbugs.eml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/11853/trunk/findbugs/findbugs.eml
+END

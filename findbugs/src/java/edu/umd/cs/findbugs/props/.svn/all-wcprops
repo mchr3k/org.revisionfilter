@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/11239/trunk/findbugs/src/java/edu/umd/cs/findbugs/props
+END
+PriorityAdjustment.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/10623/trunk/findbugs/src/java/edu/umd/cs/findbugs/props/PriorityAdjustment.java
+END
+WarningPropertySet.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/11239/trunk/findbugs/src/java/edu/umd/cs/findbugs/props/WarningPropertySet.java
+END
+GeneralWarningProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/10806/trunk/findbugs/src/java/edu/umd/cs/findbugs/props/GeneralWarningProperty.java
+END
+WarningPropertyUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/10390/trunk/findbugs/src/java/edu/umd/cs/findbugs/props/WarningPropertyUtil.java
+END
+WarningProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3770/trunk/findbugs/src/java/edu/umd/cs/findbugs/props/WarningProperty.java
+END
+AbstractWarningProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/props/AbstractWarningProperty.java
+END

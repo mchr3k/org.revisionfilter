@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/10588/trunk/findbugs/src/java/edu/umd/cs/findbugs/plan
+END
+DetectorNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/plan/DetectorNode.java
+END
+DetectorFactorySelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9696/trunk/findbugs/src/java/edu/umd/cs/findbugs/plan/DetectorFactorySelector.java
+END
+SingleDetectorFactorySelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/plan/SingleDetectorFactorySelector.java
+END
+ConstraintGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9696/trunk/findbugs/src/java/edu/umd/cs/findbugs/plan/ConstraintGraph.java
+END
+DetectorOrderingConstraint.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9713/trunk/findbugs/src/java/edu/umd/cs/findbugs/plan/DetectorOrderingConstraint.java
+END
+ConstraintEdge.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9696/trunk/findbugs/src/java/edu/umd/cs/findbugs/plan/ConstraintEdge.java
+END
+AnalysisPass.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9552/trunk/findbugs/src/java/edu/umd/cs/findbugs/plan/AnalysisPass.java
+END
+ReportingDetectorFactorySelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/plan/ReportingDetectorFactorySelector.java
+END
+OrderingConstraintException.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/5848/trunk/findbugs/src/java/edu/umd/cs/findbugs/plan/OrderingConstraintException.java
+END
+ExecutionPlan.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/10588/trunk/findbugs/src/java/edu/umd/cs/findbugs/plan/ExecutionPlan.java
+END
+ByInterfaceDetectorFactorySelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/8302/trunk/findbugs/src/java/edu/umd/cs/findbugs/plan/ByInterfaceDetectorFactorySelector.java
+END

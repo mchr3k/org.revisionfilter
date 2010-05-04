@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/11789/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/generic
+END
+GenericObjectType.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/11789/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/generic/GenericObjectType.java
+END
+GenericUtilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/11635/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/generic/GenericUtilities.java
+END
+GenericSignatureParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9698/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/generic/GenericSignatureParser.java
+END

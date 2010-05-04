@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/11670/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305
+END
+AbstractMethodAnnotationAccumulator.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/10483/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/AbstractMethodAnnotationAccumulator.java
+END
+SourceSinkInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9753/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/SourceSinkInfo.java
+END
+ParameterAnnotationLookupResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/8558/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/ParameterAnnotationLookupResult.java
+END
+FlowValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9554/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/FlowValue.java
+END
+BackwardTypeQualifierDataflow.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/8431/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/BackwardTypeQualifierDataflow.java
+END
+ReturnTypeAnnotationLookupResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/8558/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/ReturnTypeAnnotationLookupResult.java
+END
+TypeQualifierResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/10504/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/TypeQualifierResolver.java
+END
+TypeQualifierDataflow.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/8413/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/TypeQualifierDataflow.java
+END
+TypeQualifierAnnotationLookupResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/TypeQualifierAnnotationLookupResult.java
+END
+TypeQualifierDatabase.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/11514/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/TypeQualifierDatabase.java
+END
+BackwardTypeQualifierDataflowAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/9753/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/BackwardTypeQualifierDataflowAnalysis.java
+END
+TypeQualifierDataflowAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/9738/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/TypeQualifierDataflowAnalysis.java
+END
+ParameterAnnotationAccumulator.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/10490/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/ParameterAnnotationAccumulator.java
+END
+ReturnTypeAnnotationAccumulator.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/10483/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/ReturnTypeAnnotationAccumulator.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/8593/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/package.html
+END
+TypeQualifierAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/10490/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/TypeQualifierAnnotation.java
+END
+TypeQualifierValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9715/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/TypeQualifierValue.java
+END
+ForwardTypeQualifierDataflowFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/11514/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/ForwardTypeQualifierDataflowFactory.java
+END
+Analysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/10026/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/Analysis.java
+END
+FindBugsDefaultAnnotations.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/9554/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/FindBugsDefaultAnnotations.java
+END
+SourceSinkType.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9401/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/SourceSinkType.java
+END
+JSR305NullnessAnnotations.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9621/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/JSR305NullnessAnnotations.java
+END
+TypeQualifierApplications.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/11670/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/TypeQualifierApplications.java
+END
+ForwardTypeQualifierDataflow.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/8417/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/ForwardTypeQualifierDataflow.java
+END
+TypeQualifierValueSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9698/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/TypeQualifierValueSet.java
+END
+BackwardTypeQualifierDataflowFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/9749/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/BackwardTypeQualifierDataflowFactory.java
+END
+DirectlyRelevantTypeQualifiersDatabase.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/9738/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/DirectlyRelevantTypeQualifiersDatabase.java
+END
+TypeQualifierDataflowFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/9746/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/TypeQualifierDataflowFactory.java
+END
+ForwardTypeQualifierDataflowAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/9753/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/jsr305/ForwardTypeQualifierDataflowAnalysis.java
+END

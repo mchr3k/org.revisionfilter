@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/11371/trunk/findbugs/src/java/edu/umd/cs/findbugs/xml
+END
+XMLWriteable.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2902/trunk/findbugs/src/java/edu/umd/cs/findbugs/xml/XMLWriteable.java
+END
+Dom4JXMLOutput.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/11371/trunk/findbugs/src/java/edu/umd/cs/findbugs/xml/Dom4JXMLOutput.java
+END
+XMLOutputUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/11073/trunk/findbugs/src/java/edu/umd/cs/findbugs/xml/XMLOutputUtil.java
+END
+XMLAttributeList.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/10609/trunk/findbugs/src/java/edu/umd/cs/findbugs/xml/XMLAttributeList.java
+END
+MetaCharacterMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2902/trunk/findbugs/src/java/edu/umd/cs/findbugs/xml/MetaCharacterMap.java
+END
+XMLOutput.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9914/trunk/findbugs/src/java/edu/umd/cs/findbugs/xml/XMLOutput.java
+END
+QuoteMetaCharacters.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/4592/trunk/findbugs/src/java/edu/umd/cs/findbugs/xml/QuoteMetaCharacters.java
+END
+XPathFind.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9827/trunk/findbugs/src/java/edu/umd/cs/findbugs/xml/XPathFind.java
+END
+OutputStreamXMLOutput.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/10609/trunk/findbugs/src/java/edu/umd/cs/findbugs/xml/OutputStreamXMLOutput.java
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/11961/trunk/findbugs/licenses
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/11961/trunk/findbugs/licenses/LICENSE.txt
+END
+LICENSE-AppleJavaExtensions.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/11961/trunk/findbugs/licenses/LICENSE-AppleJavaExtensions.txt
+END
+LICENSE-jaxen.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/11961/trunk/findbugs/licenses/LICENSE-jaxen.txt
+END
+LICENSE-jcip.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/11961/trunk/findbugs/licenses/LICENSE-jcip.txt
+END
+LICENSE-bcel.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/11961/trunk/findbugs/licenses/LICENSE-bcel.txt
+END
+LICENSE-jsr305.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/11961/trunk/findbugs/licenses/LICENSE-jsr305.txt
+END
+LICENSE-jFormatString.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/11961/trunk/findbugs/licenses/LICENSE-jFormatString.txt
+END
+LICENSE-jdepend.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/11961/trunk/findbugs/licenses/LICENSE-jdepend.txt
+END
+LICENSE-commons-lang.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/11961/trunk/findbugs/licenses/LICENSE-commons-lang.txt
+END
+LICENSE-mysql-connector.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/11961/trunk/findbugs/licenses/LICENSE-mysql-connector.txt
+END
+LICENSE-dom4j.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/11961/trunk/findbugs/licenses/LICENSE-dom4j.txt
+END
+LICENSE-docbook.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/11961/trunk/findbugs/licenses/LICENSE-docbook.txt
+END
+LICENSE-ASM.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/11961/trunk/findbugs/licenses/LICENSE-ASM.txt
+END

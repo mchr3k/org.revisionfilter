@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/11672/trunk/findbugs/src/junit/edu/umd/cs/findbugs/detect
+END
+FindSqlInjectionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/7952/trunk/findbugs/src/junit/edu/umd/cs/findbugs/detect/FindSqlInjectionTest.java
+END
+IncompatMaskTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/11672/trunk/findbugs/src/junit/edu/umd/cs/findbugs/detect/IncompatMaskTest.java
+END

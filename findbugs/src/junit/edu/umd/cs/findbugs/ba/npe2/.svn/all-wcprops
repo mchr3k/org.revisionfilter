@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/7952/trunk/findbugs/src/junit/edu/umd/cs/findbugs/ba/npe2
+END
+TestNullnessValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/7952/trunk/findbugs/src/junit/edu/umd/cs/findbugs/ba/npe2/TestNullnessValue.java
+END
+TestDefinitelyNullSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/7952/trunk/findbugs/src/junit/edu/umd/cs/findbugs/ba/npe2/TestDefinitelyNullSet.java
+END

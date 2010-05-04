@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11377/trunk/eclipsePlugin/src/de/tobject/findbugs/view/properties
+END
+BugGroupSection.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/10634/trunk/eclipsePlugin/src/de/tobject/findbugs/view/properties/BugGroupSection.java
+END
+BugPatternSection.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/10738/trunk/eclipsePlugin/src/de/tobject/findbugs/view/properties/BugPatternSection.java
+END
+BugPatternFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/10391/trunk/eclipsePlugin/src/de/tobject/findbugs/view/properties/BugPatternFilter.java
+END
+BugInstanceSection.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/10949/trunk/eclipsePlugin/src/de/tobject/findbugs/view/properties/BugInstanceSection.java
+END
+PropPageTitleProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/10634/trunk/eclipsePlugin/src/de/tobject/findbugs/view/properties/PropPageTitleProvider.java
+END
+PropertyPageAdapterFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/11377/trunk/eclipsePlugin/src/de/tobject/findbugs/view/properties/PropertyPageAdapterFactory.java
+END

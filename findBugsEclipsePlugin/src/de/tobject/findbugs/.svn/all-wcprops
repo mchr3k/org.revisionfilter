@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/11695/trunk/eclipsePlugin/src/de/tobject/findbugs
+END
+AntPropertyValueProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9020/trunk/eclipsePlugin/src/de/tobject/findbugs/AntPropertyValueProvider.java
+END
+FindbugsSaveParticipant.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/10758/trunk/eclipsePlugin/src/de/tobject/findbugs/FindbugsSaveParticipant.java
+END
+FindbugsPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/10951/trunk/eclipsePlugin/src/de/tobject/findbugs/FindbugsPlugin.java
+END
+AnnotationClasspathInitializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/10519/trunk/eclipsePlugin/src/de/tobject/findbugs/AnnotationClasspathInitializer.java
+END
+messages.properties
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/10758/trunk/eclipsePlugin/src/de/tobject/findbugs/messages.properties
+END
+messages_fr.properties
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5456/trunk/eclipsePlugin/src/de/tobject/findbugs/messages_fr.properties
+END
+messages_ja.properties
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5419/trunk/eclipsePlugin/src/de/tobject/findbugs/messages_ja.properties
+END
+FindBugsJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/10758/trunk/eclipsePlugin/src/de/tobject/findbugs/FindBugsJob.java
+END

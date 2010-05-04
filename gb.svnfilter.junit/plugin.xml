@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            adaptable="true"
+            id="gb.svnfilter.junit.ProjectActions"
+            objectClass="org.eclipse.core.resources.IProject">
+         <action
+               class="gb.svnfilter.junit.actions.RunJUnitProjectAction"
+               icon="icons/full/obj16/julaunch.gif"
+               id="gb.svnfilter.junit.action.JUnitSVNAction"
+               label="&amp;JUnit Test (SVN)"
+               menubarPath="group.build">
+         </action>
+         <visibility>
+            <objectState
+                  name="nature"
+                  value="org.eclipse.jdt.core.javanature">
+            </objectState>
+         </visibility>
+      </objectContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="gb.svnfilter.junit.CallingTestsView"
+            id="gb.svnfilter.junit.CallingTestsView"
+            name="Calling Tests View"
+            restorable="true">
+      </view>
+      <view
+            class="gb.svnfilter.junit.AffectedTestView"
+            id="gb.svnfilter.junit.AffectedTestView"
+            name="Affected Tests View"
+            restorable="true">
+      </view>
+   </extension>
+
+</plugin>

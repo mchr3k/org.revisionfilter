@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9862/trunk/findbugs/src/junit/edu/umd/cs/findbugs/visitclass
+END
+DismantleBytecodeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9862/trunk/findbugs/src/junit/edu/umd/cs/findbugs/visitclass/DismantleBytecodeTest.java
+END
+GetNumberArgumentsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/7952/trunk/findbugs/src/junit/edu/umd/cs/findbugs/visitclass/GetNumberArgumentsTest.java
+END

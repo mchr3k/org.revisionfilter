@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/10820/trunk/eclipsePlugin/src/de/tobject/findbugs/classify
+END
+AccuracyClassificationPulldownAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/10820/trunk/eclipsePlugin/src/de/tobject/findbugs/classify/AccuracyClassificationPulldownAction.java
+END
+SeverityClassificationPulldownAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/10358/trunk/eclipsePlugin/src/de/tobject/findbugs/classify/SeverityClassificationPulldownAction.java
+END

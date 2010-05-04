@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/12103/trunk/findbugs/etc
+END
+MANIFEST-findbugs-mondo.MF
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/10963/trunk/findbugs/etc/MANIFEST-findbugs-mondo.MF
+END
+messages_ja.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/10760/trunk/findbugs/etc/messages_ja.xml
+END
+bugcollection.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/12032/trunk/findbugs/etc/bugcollection.xsd
+END
+diffBugSummaries
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1139/trunk/findbugs/etc/diffBugSummaries
+END
+messages_fr.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/10760/trunk/findbugs/etc/messages_fr.xml
+END
+summarizeBugs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1137/trunk/findbugs/etc/summarizeBugs
+END
+messagecollection.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/11805/trunk/findbugs/etc/messagecollection.xsd
+END
+script.properties
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/9419/trunk/findbugs/etc/script.properties
+END
+doc.properties
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/10515/trunk/findbugs/etc/doc.properties
+END
+findbugs.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/12097/trunk/findbugs/etc/findbugs.xml
+END
+MANIFEST-findbugs.MF
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/11757/trunk/findbugs/etc/MANIFEST-findbugs.MF
+END
+messages.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/12103/trunk/findbugs/etc/messages.xml
+END
+MANIFEST-findbugs-full.MF
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/9805/trunk/findbugs/etc/MANIFEST-findbugs-full.MF
+END
+bugrank.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/11976/trunk/findbugs/etc/bugrank.txt
+END
+MANIFEST-findbugsGUI.MF
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/9697/trunk/findbugs/etc/MANIFEST-findbugsGUI.MF
+END
+findbugsplugin.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/11977/trunk/findbugs/etc/findbugsplugin.xsd
+END

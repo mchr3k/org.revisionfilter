@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/11261/trunk/findbugs/src/java/edu/umd/cs/findbugs/config
+END
+UserPreferences.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/10032/trunk/findbugs/src/java/edu/umd/cs/findbugs/config/UserPreferences.java
+END
+CommandLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/11261/trunk/findbugs/src/java/edu/umd/cs/findbugs/config/CommandLine.java
+END
+ProjectFilterSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/10575/trunk/findbugs/src/java/edu/umd/cs/findbugs/config/ProjectFilterSettings.java
+END
+AnalysisFeatureSetting.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/10292/trunk/findbugs/src/java/edu/umd/cs/findbugs/config/AnalysisFeatureSetting.java
+END
+SortedProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/8456/trunk/findbugs/src/java/edu/umd/cs/findbugs/config/SortedProperties.java
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/5125/trunk/findbugs/etc/docbook
+END
+docbookx.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/5125/trunk/findbugs/etc/docbook/docbookx.dtd
+END
+soextblx.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/5125/trunk/findbugs/etc/docbook/soextblx.dtd
+END
+dbhierx.mod
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/5125/trunk/findbugs/etc/docbook/dbhierx.mod
+END
+dbgenent.mod
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/5125/trunk/findbugs/etc/docbook/dbgenent.mod
+END
+dbcentx.mod
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/5125/trunk/findbugs/etc/docbook/dbcentx.mod
+END
+dbpoolx.mod
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/5125/trunk/findbugs/etc/docbook/dbpoolx.mod
+END
+calstblx.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/5125/trunk/findbugs/etc/docbook/calstblx.dtd
+END
+dbnotnx.mod
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/5125/trunk/findbugs/etc/docbook/dbnotnx.mod
+END

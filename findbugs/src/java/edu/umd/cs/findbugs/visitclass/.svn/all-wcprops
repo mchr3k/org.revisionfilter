@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/12104/trunk/findbugs/src/java/edu/umd/cs/findbugs/visitclass
+END
+DismantleBytecode.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/11728/trunk/findbugs/src/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java
+END
+PreorderVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/12104/trunk/findbugs/src/java/edu/umd/cs/findbugs/visitclass/PreorderVisitor.java
+END
+PrintClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/11628/trunk/findbugs/src/java/edu/umd/cs/findbugs/visitclass/PrintClass.java
+END
+BetterVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/7882/trunk/findbugs/src/java/edu/umd/cs/findbugs/visitclass/BetterVisitor.java
+END
+LVTHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/visitclass/LVTHelper.java
+END
+AnnotationVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9738/trunk/findbugs/src/java/edu/umd/cs/findbugs/visitclass/AnnotationVisitor.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/12104/trunk/findbugs/src/java/edu/umd/cs/findbugs/visitclass/Util.java
+END
+Constants2.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2763/trunk/findbugs/src/java/edu/umd/cs/findbugs/visitclass/Constants2.java
+END

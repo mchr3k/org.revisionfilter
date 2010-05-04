@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/12031/trunk/findbugs/src/antTask/edu/umd/cs/findbugs/anttask
+END
+ComputeBugHistoryTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9258/trunk/findbugs/src/antTask/edu/umd/cs/findbugs/anttask/ComputeBugHistoryTask.java
+END
+tasks.properties
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9033/trunk/findbugs/src/antTask/edu/umd/cs/findbugs/anttask/tasks.properties
+END
+FindBugsTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/12031/trunk/findbugs/src/antTask/edu/umd/cs/findbugs/anttask/FindBugsTask.java
+END
+FindBugsViewerTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/10608/trunk/findbugs/src/antTask/edu/umd/cs/findbugs/anttask/FindBugsViewerTask.java
+END
+AbstractFindBugsTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/12031/trunk/findbugs/src/antTask/edu/umd/cs/findbugs/anttask/AbstractFindBugsTask.java
+END
+DataFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/8969/trunk/findbugs/src/antTask/edu/umd/cs/findbugs/anttask/DataFile.java
+END
+FilterBugsTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/11693/trunk/findbugs/src/antTask/edu/umd/cs/findbugs/anttask/FilterBugsTask.java
+END
+UnionBugs.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/10276/trunk/findbugs/src/antTask/edu/umd/cs/findbugs/anttask/UnionBugs.java
+END
+MineBugHistoryTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9219/trunk/findbugs/src/antTask/edu/umd/cs/findbugs/anttask/MineBugHistoryTask.java
+END
+UnionBugs2.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/11691/trunk/findbugs/src/antTask/edu/umd/cs/findbugs/anttask/UnionBugs2.java
+END
+ConvertXmlToTextTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/10384/trunk/findbugs/src/antTask/edu/umd/cs/findbugs/anttask/ConvertXmlToTextTask.java
+END
+SetBugDatabaseInfoTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/10099/trunk/findbugs/src/antTask/edu/umd/cs/findbugs/anttask/SetBugDatabaseInfoTask.java
+END

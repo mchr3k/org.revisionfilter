@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/12039/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/vna
+END
+ValueNumberFrameModelingVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/11603/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/vna/ValueNumberFrameModelingVisitor.java
+END
+MergeTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/vna/MergeTree.java
+END
+AvailableLoad.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/10040/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/vna/AvailableLoad.java
+END
+ValueNumberFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/10932/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/vna/ValueNumberFrame.java
+END
+ValueNumberSourceInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/12039/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/vna/ValueNumberSourceInfo.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9074/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/vna/package-info.java
+END
+ValueNumber.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/10107/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/vna/ValueNumber.java
+END
+ValueNumberDataflow.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/10107/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/vna/ValueNumberDataflow.java
+END
+LoadedFieldSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5521/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/vna/LoadedFieldSet.java
+END
+ValueNumberAnalysisFeatures.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/6125/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/vna/ValueNumberAnalysisFeatures.java
+END
+ValueNumberAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/10107/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/vna/ValueNumberAnalysis.java
+END
+ValueNumberCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9698/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/vna/ValueNumberCache.java
+END
+ValueNumberFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/10108/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/vna/ValueNumberFactory.java
+END

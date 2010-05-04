@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/11695/trunk/eclipsePlugin/src/de/tobject/findbugs/reporter
+END
+MarkerUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/11542/trunk/eclipsePlugin/src/de/tobject/findbugs/reporter/MarkerUtil.java
+END
+Reporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/11695/trunk/eclipsePlugin/src/de/tobject/findbugs/reporter/Reporter.java
+END
+MarkerParameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/10949/trunk/eclipsePlugin/src/de/tobject/findbugs/reporter/MarkerParameter.java
+END
+JdtUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/10945/trunk/eclipsePlugin/src/de/tobject/findbugs/reporter/JdtUtils.java
+END
+MarkerReporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/11078/trunk/eclipsePlugin/src/de/tobject/findbugs/reporter/MarkerReporter.java
+END

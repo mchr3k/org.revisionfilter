@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/9698/trunk/findbugs/src/java/edu/umd/cs/findbugs/jaif
+END
+JAIFSyntaxException.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/8638/trunk/findbugs/src/java/edu/umd/cs/findbugs/jaif/JAIFSyntaxException.java
+END
+JAIFTokenKind.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/8648/trunk/findbugs/src/java/edu/umd/cs/findbugs/jaif/JAIFTokenKind.java
+END
+JAIFScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9554/trunk/findbugs/src/java/edu/umd/cs/findbugs/jaif/JAIFScanner.java
+END
+JAIFParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9698/trunk/findbugs/src/java/edu/umd/cs/findbugs/jaif/JAIFParser.java
+END
+JAIFEnumConstant.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/8638/trunk/findbugs/src/java/edu/umd/cs/findbugs/jaif/JAIFEnumConstant.java
+END
+JAIFToken.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/8648/trunk/findbugs/src/java/edu/umd/cs/findbugs/jaif/JAIFToken.java
+END
+JAIFEvents.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9554/trunk/findbugs/src/java/edu/umd/cs/findbugs/jaif/JAIFEvents.java
+END

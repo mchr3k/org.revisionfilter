@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/12091/trunk/findbugs/src/java/edu/umd/cs/findbugs/filter
+END
+StringSetMatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9698/trunk/findbugs/src/java/edu/umd/cs/findbugs/filter/StringSetMatch.java
+END
+SignatureUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/10502/trunk/findbugs/src/java/edu/umd/cs/findbugs/filter/SignatureUtil.java
+END
+RankMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/11647/trunk/findbugs/src/java/edu/umd/cs/findbugs/filter/RankMatcher.java
+END
+FirstVersionMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9008/trunk/findbugs/src/java/edu/umd/cs/findbugs/filter/FirstVersionMatcher.java
+END
+FilterException.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/7977/trunk/findbugs/src/java/edu/umd/cs/findbugs/filter/FilterException.java
+END
+AndMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9401/trunk/findbugs/src/java/edu/umd/cs/findbugs/filter/AndMatcher.java
+END
+DesignationMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9554/trunk/findbugs/src/java/edu/umd/cs/findbugs/filter/DesignationMatcher.java
+END
+ClassMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9007/trunk/findbugs/src/java/edu/umd/cs/findbugs/filter/ClassMatcher.java
+END
+MemberMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/11593/trunk/findbugs/src/java/edu/umd/cs/findbugs/filter/MemberMatcher.java
+END
+LastVersionMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9007/trunk/findbugs/src/java/edu/umd/cs/findbugs/filter/LastVersionMatcher.java
+END
+BugMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9698/trunk/findbugs/src/java/edu/umd/cs/findbugs/filter/BugMatcher.java
+END
+Matcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/8070/trunk/findbugs/src/java/edu/umd/cs/findbugs/filter/Matcher.java
+END
+OrMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9007/trunk/findbugs/src/java/edu/umd/cs/findbugs/filter/OrMatcher.java
+END
+MethodMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/11593/trunk/findbugs/src/java/edu/umd/cs/findbugs/filter/MethodMatcher.java
+END
+PriorityMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9007/trunk/findbugs/src/java/edu/umd/cs/findbugs/filter/PriorityMatcher.java
+END
+Filter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12091/trunk/findbugs/src/java/edu/umd/cs/findbugs/filter/Filter.java
+END
+FieldMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/11593/trunk/findbugs/src/java/edu/umd/cs/findbugs/filter/FieldMatcher.java
+END
+CompoundMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9698/trunk/findbugs/src/java/edu/umd/cs/findbugs/filter/CompoundMatcher.java
+END
+RelationalOp.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9552/trunk/findbugs/src/java/edu/umd/cs/findbugs/filter/RelationalOp.java
+END
+VersionMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/8133/trunk/findbugs/src/java/edu/umd/cs/findbugs/filter/VersionMatcher.java
+END
+NameMatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9108/trunk/findbugs/src/java/edu/umd/cs/findbugs/filter/NameMatch.java
+END
+LocalMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9008/trunk/findbugs/src/java/edu/umd/cs/findbugs/filter/LocalMatcher.java
+END

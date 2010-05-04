@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/12088/trunk/findbugs/src/java/edu/umd/cs/findbugs/annotations
+END
+CleanupObligation.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/11979/trunk/findbugs/src/java/edu/umd/cs/findbugs/annotations/CleanupObligation.java
+END
+PossiblyNull.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/11979/trunk/findbugs/src/java/edu/umd/cs/findbugs/annotations/PossiblyNull.java
+END
+DesireWarning.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/12088/trunk/findbugs/src/java/edu/umd/cs/findbugs/annotations/DesireWarning.java
+END
+When.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/11979/trunk/findbugs/src/java/edu/umd/cs/findbugs/annotations/When.java
+END
+NoWarning.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/12088/trunk/findbugs/src/java/edu/umd/cs/findbugs/annotations/NoWarning.java
+END
+OverrideMustInvoke.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/11979/trunk/findbugs/src/java/edu/umd/cs/findbugs/annotations/OverrideMustInvoke.java
+END
+DefaultAnnotationForMethods.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/11979/trunk/findbugs/src/java/edu/umd/cs/findbugs/annotations/DefaultAnnotationForMethods.java
+END
+CheckReturnValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/11979/trunk/findbugs/src/java/edu/umd/cs/findbugs/annotations/CheckReturnValue.java
+END
+DefaultAnnotationForParameters.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/11979/trunk/findbugs/src/java/edu/umd/cs/findbugs/annotations/DefaultAnnotationForParameters.java
+END
+DefaultAnnotationForFields.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/11979/trunk/findbugs/src/java/edu/umd/cs/findbugs/annotations/DefaultAnnotationForFields.java
+END
+ExpectWarning.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/12088/trunk/findbugs/src/java/edu/umd/cs/findbugs/annotations/ExpectWarning.java
+END
+CheckForNull.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/11979/trunk/findbugs/src/java/edu/umd/cs/findbugs/annotations/CheckForNull.java
+END
+DefaultAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/11979/trunk/findbugs/src/java/edu/umd/cs/findbugs/annotations/DefaultAnnotation.java
+END
+Priority.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/11979/trunk/findbugs/src/java/edu/umd/cs/findbugs/annotations/Priority.java
+END
+UnknownNullness.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/11979/trunk/findbugs/src/java/edu/umd/cs/findbugs/annotations/UnknownNullness.java
+END
+DischargesObligation.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/11979/trunk/findbugs/src/java/edu/umd/cs/findbugs/annotations/DischargesObligation.java
+END
+NonNull.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/11979/trunk/findbugs/src/java/edu/umd/cs/findbugs/annotations/NonNull.java
+END
+ReturnValuesAreNonnullByDefault.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/11979/trunk/findbugs/src/java/edu/umd/cs/findbugs/annotations/ReturnValuesAreNonnullByDefault.java
+END
+SuppressWarnings.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/11979/trunk/findbugs/src/java/edu/umd/cs/findbugs/annotations/SuppressWarnings.java
+END
+Nullable.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/11979/trunk/findbugs/src/java/edu/umd/cs/findbugs/annotations/Nullable.java
+END
+CreatesObligation.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/11979/trunk/findbugs/src/java/edu/umd/cs/findbugs/annotations/CreatesObligation.java
+END
+DesireNoWarning.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/12088/trunk/findbugs/src/java/edu/umd/cs/findbugs/annotations/DesireNoWarning.java
+END

@@ -1,0 +1,44 @@
+10
+
+dir
+992
+https://eclemma.svn.sourceforge.net/svnroot/eclemma/eclemma/trunk/com.mountainminds.eclemma.core.test/testdata/src
+https://eclemma.svn.sourceforge.net/svnroot/eclemma
+
+
+
+2009-03-05T20:33:50.536592Z
+539
+mtnminds
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+203a895f-6f59-0d47-8735-a2f280bbfc83
+
+typetraverser
+dir
+
+signatureresolver
+dir
+
+methodlocator
+dir
+
+methodmatcher
+dir
+
+
+
+add
+

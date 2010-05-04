@@ -1,0 +1,971 @@
+Index: .settings/org.eclipse.jdt.ui.prefs
+===================================================================
+--- .settings/org.eclipse.jdt.ui.prefs	(revision 989)
++++ .settings/org.eclipse.jdt.ui.prefs	(working copy)
+@@ -1,4 +1,4 @@
+-#Sat Jan 24 15:41:03 CET 2009
++#Mon Aug 31 16:06:12 BST 2009
+ eclipse.preferences.version=1
+ editor_save_participant_org.eclipse.jdt.ui.postsavelistener.cleanup=true
+ formatter_profile=_EclEmma
+@@ -17,7 +17,7 @@
+ sp_cleanup.always_use_this_for_non_static_method_access=false
+ sp_cleanup.convert_to_enhanced_for_loop=false
+ sp_cleanup.correct_indentation=false
+-sp_cleanup.format_source_code=true
++sp_cleanup.format_source_code=false
+ sp_cleanup.format_source_code_changes_only=false
+ sp_cleanup.make_local_variable_final=false
+ sp_cleanup.make_parameters_final=false
+Index: META-INF/MANIFEST.MF
+===================================================================
+--- META-INF/MANIFEST.MF	(revision 989)
++++ META-INF/MANIFEST.MF	(working copy)
+@@ -8,11 +8,11 @@
+ Export-Package: com.mountainminds.eclemma.core,
+  com.mountainminds.eclemma.core.analysis,
+  com.mountainminds.eclemma.core.launching
+-Require-Bundle: org.eclipse.core.runtime,
+- org.eclipse.core.resources,
+- org.eclipse.debug.core,
+- org.eclipse.jdt.core,
+- org.eclipse.jdt.launching
++Require-Bundle: org.eclipse.core.runtime,
++ org.eclipse.debug.core,
++ org.eclipse.jdt.core,
++ org.eclipse.jdt.launching,
++ org.eclipse.core.resources;bundle-version="3.1.0"
+ Bundle-ClassPath: .,
+  emma.jar
+ Bundle-Activator: com.mountainminds.eclemma.internal.core.EclEmmaCorePlugin
+Index: src/com/mountainminds/eclemma/core/analysis/ICoverageFilter.java
+===================================================================
+--- src/com/mountainminds/eclemma/core/analysis/ICoverageFilter.java	(revision 0)
++++ src/com/mountainminds/eclemma/core/analysis/ICoverageFilter.java	(revision 0)
+@@ -0,0 +1,57 @@
++package com.mountainminds.eclemma.core.analysis;
++
++import org.eclipse.jdt.core.IJavaElement;
++
++/**
++ * Interface for 3rd party code to decide which parts of Java Coverage
++ * should be included.
++ */
++public interface ICoverageFilter {
++  
++  // Coverage mode constants
++  final int INSTRUCTIONS = 0;
++  final int BLOCKS = 1;
++  final int LINES = 2;
++  final int METHODS = 3;
++  final int TYPES = 4;
++  
++  // Setup functions
++  
++  /**
++   * @return the preferred coverage mode which will be enabled when this filter 
++   * is enabled. 
++   */
++  int preferredMode();
++  
++  /**
++   * @return int[] array of coverage mode constants corresponding to the
++   * coverage modes which are disabled.
++   */
++  int[] disabledModes();
++  
++  /**
++   * @return Name of the filter.
++   */
++  String getName();
++    
++  // Filter functions
++  
++  /**
++   * Reset this filter.
++   */
++  void resetFilter();
++  
++  /**
++   * @param element Element to test.
++   * @return True if the element should be excluded from the coverage view.
++   */
++  boolean isElementFiltered(IJavaElement element);
++
++  /**
++   * @param xiFilteredLines
++   * @param xiElement
++   * @return xiFilteredLines with any filtered lines set to -1
++   */
++  int[] getFilteredLines(int[] xiFilteredLines, IJavaElement xiElement);
++  
++}
+Index: src/com/mountainminds/eclemma/core/CoverageTools.java
+===================================================================
+--- src/com/mountainminds/eclemma/core/CoverageTools.java	(revision 989)
++++ src/com/mountainminds/eclemma/core/CoverageTools.java	(working copy)
+@@ -20,6 +20,7 @@
+ import org.eclipse.debug.core.ILaunch;
+ import org.eclipse.debug.core.ILaunchConfiguration;
+ 
++import com.mountainminds.eclemma.core.analysis.ICoverageFilter;
+ import com.mountainminds.eclemma.core.analysis.IJavaCoverageListener;
+ import com.mountainminds.eclemma.core.analysis.IJavaElementCoverage;
+ import com.mountainminds.eclemma.core.analysis.IJavaModelCoverage;
+@@ -52,7 +53,7 @@
+   public static final int EXPORT_XML = 1;
+   public static final int EXPORT_TEXT = 2;
+   public static final int EXPORT_ES = 3;
+-
++  
+   /**
+    * Returns the global session manager.
+    * 
+@@ -219,6 +220,33 @@
+         .getJavaModelCoverage();
+   }
+ 
++  /**
++   * Public method visible from other plugins to allow Coverage Filters to be 
++   * added. 
++   * @param filter Filter to add.
++   */
++  public static synchronized void addCoverageFilter(ICoverageFilter filter) {
++    EclEmmaCorePlugin.getInstance().getJavaCoverageLoader().addCoverageFilter(filter);
++  }
++
++  /**
++   * Public method visible from other plugins to allow Coverage Filters to be 
++   * removed. 
++   * @param filter Filter to remove.
++   */
++  public static synchronized void removeCoverageFilter(ICoverageFilter filter) {
++    EclEmmaCorePlugin.getInstance().getJavaCoverageLoader().removeCoverageFilter(filter);
++  }
++  
++  /**
++   * Public method visible from other plugins to allow Coverage Filters to be 
++   * removed. 
++   * @param filter Filter to remove.
++   */
++  public static synchronized boolean coverageFiltersActive() {
++    return EclEmmaCorePlugin.getInstance().getJavaCoverageLoader().coverageFiltersActive();
++  }
++  
+   public static void addJavaCoverageListener(IJavaCoverageListener l) {
+     EclEmmaCorePlugin.getInstance().getJavaCoverageLoader()
+         .addJavaCoverageListener(l);
+@@ -247,5 +275,5 @@
+   public static void setPreferences(ICorePreferences preferences) {
+     EclEmmaCorePlugin.getInstance().setPreferences(preferences);
+   }
+-
++  
+ }
+Index: src/com/mountainminds/eclemma/core/ISessionExporter.java
+===================================================================
+--- src/com/mountainminds/eclemma/core/ISessionExporter.java	(revision 989)
++++ src/com/mountainminds/eclemma/core/ISessionExporter.java	(working copy)
+@@ -3,7 +3,7 @@
+  * This software is provided under the terms of the Eclipse Public License v1.0
+  * See http://www.eclipse.org/legal/epl-v10.html.
+  *
+- * $Id: $
++ * $Id$
+  ******************************************************************************/
+ package com.mountainminds.eclemma.core;
+ 
+@@ -18,7 +18,7 @@
+  * instance.
+  * 
+  * @author Marc R. Hoffmann
+- * @version $Revision: $
++ * @version $Revision$
+  */
+ public interface ISessionExporter {
+ 
+Index: src/com/mountainminds/eclemma/core/launching/ICoverageLauncher.java
+===================================================================
+--- src/com/mountainminds/eclemma/core/launching/ICoverageLauncher.java	(revision 989)
++++ src/com/mountainminds/eclemma/core/launching/ICoverageLauncher.java	(working copy)
+@@ -3,7 +3,7 @@
+  * This software is provided under the terms of the Eclipse Public License v1.0
+  * See http://www.eclipse.org/legal/epl-v10.html.
+  *
+- * $Id: $
++ * $Id$
+  ******************************************************************************/
+ package com.mountainminds.eclemma.core.launching;
+ 
+@@ -17,7 +17,7 @@
+  * The launch delegate for coverage configurations.
+  *  
+  * @author Marc R. Hoffmann
+- * @version $Revision: $
++ * @version $Revision$
+  */
+ public interface ICoverageLauncher extends ILaunchConfigurationDelegate2 {
+ 
+Index: src/com/mountainminds/eclemma/internal/core/analysis/JavaElementCoverage.java
+===================================================================
+--- src/com/mountainminds/eclemma/internal/core/analysis/JavaElementCoverage.java	(revision 989)
++++ src/com/mountainminds/eclemma/internal/core/analysis/JavaElementCoverage.java	(working copy)
+@@ -8,6 +8,7 @@
+ package com.mountainminds.eclemma.internal.core.analysis;
+ 
+ import org.eclipse.core.resources.IResource;
++import org.eclipse.jdt.core.IJavaElement;
+ 
+ import com.mountainminds.eclemma.core.analysis.ICounter;
+ import com.mountainminds.eclemma.core.analysis.IJavaElementCoverage;
+@@ -16,7 +17,7 @@
+ /**
+  * IJavaElementCoverage implementation.
+  * 
+- * @author  Marc R. Hoffmann
++ * @author Marc R. Hoffmann
+  * @version $Revision$
+  */
+ public class JavaElementCoverage implements IJavaElementCoverage {
+@@ -26,7 +27,7 @@
+   private Counter blockCounter;
+   private Counter lineCounter;
+   private Counter instructionsCounter;
+-  
++
+   private final JavaElementCoverage parent;
+   private final Lines lines;
+   private final long modificationStamp;
+@@ -50,8 +51,10 @@
+   public void addBlock(int instructions, int[] lines, boolean covered) {
+     addBlock(instructions, lines, covered, 0, 0);
+   }
+-  
+-  private void addBlock(int instructions, int[] lines, boolean covered, int totalLineDelta, int coveredLineDelta) {
++
++  private void addBlock(int instructions, int[] lines, boolean covered,
++      int totalLineDelta, int coveredLineDelta) {
++    
+     blockCounter = blockCounter.increment(1, covered ? 1 : 0);
+     instructionsCounter = instructionsCounter.increment(instructions, covered ? instructions : 0);
+     if (this.lines == null) {
+@@ -72,7 +75,7 @@
+       }
+     }
+   }
+-  
++
+   public void addMethod(boolean covered) {
+     methodCounter = methodCounter.increment(1, covered ? 1 : 0);
+     if (parent != null) {
+@@ -88,7 +91,7 @@
+   }
+ 
+   // IJavaElementCoverage implementation:
+-  
++
+   public ICounter getBlockCounter() {
+     return blockCounter;
+   }
+@@ -97,7 +100,7 @@
+     if (lines == null) {
+       return lineCounter;
+     } else {
+-      return lines; 
++      return lines;
+     }
+   }
+ 
+@@ -108,7 +111,7 @@
+   public ILineCoverage getLineCoverage() {
+     return lines;
+   }
+-    
++
+   public ICounter getMethodCounter() {
+     return methodCounter;
+   }
+@@ -121,4 +124,15 @@
+     return modificationStamp;
+   }
+   
++  /**
++   * @param coverageNode Node to do the lookup for.
++   * @return IJavaElement related to a particular coverageNode.
++   */
++  public IJavaElement getJavaElement(IJavaElementCoverage coverageNode) {
++    if (parent != null) {
++      return parent.getJavaElement(coverageNode);
++    } else {
++      return null;
++    }
++  }
+ }
+Index: src/com/mountainminds/eclemma/internal/core/analysis/JavaModelCoverage.java
+===================================================================
+--- src/com/mountainminds/eclemma/internal/core/analysis/JavaModelCoverage.java	(revision 989)
++++ src/com/mountainminds/eclemma/internal/core/analysis/JavaModelCoverage.java	(working copy)
+@@ -25,7 +25,7 @@
+  * The IJavaModelCoverage implementation maps Java elements to its corresponding
+  * coverage data objects.
+  * 
+- * @author  Marc R. Hoffmann
++ * @author Marc R. Hoffmann
+  * @version $Revision$
+  */
+ public class JavaModelCoverage extends JavaElementCoverage implements
+@@ -33,41 +33,45 @@
+ 
+   /** Maps Java elements to coverage objects */
+   private final Map coveragemap = new HashMap();
++
++  /** Maps coverage objects to Java elements */
++  private final Map elementmap = new HashMap();
+   
+-  /** List of all IJavaProject objects with coverage information attached */  
++  /** List of all IJavaProject objects with coverage information attached */
+   private final List projects = new ArrayList();
+ 
+   /** List of all IPackageFragmentRoot objects with coverage information attached */  
+   private final List fragmentroots = new ArrayList();
+ 
+-  /** List of all IPackageFragment objects with coverage information attached */  
++  /** List of all IPackageFragment objects with coverage information attached */
+   private final List fragments = new ArrayList();
+ 
+-  /** List of all IType objects with coverage information attached */  
++  /** List of all IType objects with coverage information attached */
+   private final List types = new ArrayList();
+ 
+   public JavaModelCoverage() {
+     super(null, false, 0);
+   }
+-  
++
+   public void put(IJavaElement element, IJavaElementCoverage coverage) {
+     coveragemap.put(element, coverage);
++    elementmap.put(coverage, element);
+     switch (element.getElementType()) {
+-      case IJavaElement.JAVA_PROJECT:
+-        projects.add(element);
+-        break;
+-      case IJavaElement.PACKAGE_FRAGMENT_ROOT:
+-        fragmentroots.add(element);
+-        break;
+-      case IJavaElement.PACKAGE_FRAGMENT:
+-        fragments.add(element);
+-        break;
+-      case IJavaElement.TYPE:
+-        types.add(element);
+-        break;
++    case IJavaElement.JAVA_PROJECT:
++      projects.add(element);
++      break;
++    case IJavaElement.PACKAGE_FRAGMENT_ROOT:
++      fragmentroots.add(element);
++      break;
++    case IJavaElement.PACKAGE_FRAGMENT:
++      fragments.add(element);
++      break;
++    case IJavaElement.TYPE:
++      types.add(element);
++      break;
+     }
+   }
+-  
++
+   // IJavaModelCoverage interface
+ 
+   public IJavaProject[] getInstrumentedProjects() {
+@@ -104,4 +108,11 @@
+     return c;
+   }
+ 
++  /**
++   * @param coverageNode Node to do the lookup for.
++   * @return IJavaElement related to a particular coverageNode.
++   */
++  public IJavaElement getJavaElement(IJavaElementCoverage coverageNode) {
++    return (IJavaElement)elementmap.get(coverageNode);
++  }
+ }
+Index: src/com/mountainminds/eclemma/internal/core/analysis/Lines.java
+===================================================================
+--- src/com/mountainminds/eclemma/internal/core/analysis/Lines.java	(revision 989)
++++ src/com/mountainminds/eclemma/internal/core/analysis/Lines.java	(working copy)
+@@ -85,20 +85,25 @@
+   public void addLines(int lines[], boolean isCovered) {
+     for (int i = 0; i < lines.length; i++) {
+       int line = lines[i];
+-      ensureCapacity(line);
+-      int idx = line - offset;
+-      switch (coverage[idx]) {
+-      case NO_CODE:
+-        total++;
+-        if (isCovered)
+-          covered++;
+-        break;
+-      case NOT_COVERED:
+-        if (isCovered)
+-          covered++;
+-        break;
+-      }
+-      coverage[idx] |= isCovered ? FULLY_COVERED : NOT_COVERED;
++      
++      // Ignore lines marked with line number -1 as these have been filtered
++      if (line > -1)
++      {
++        ensureCapacity(line);
++        int idx = line - offset;
++        switch (coverage[idx]) {
++        case NO_CODE:
++          total++;
++          if (isCovered)
++            covered++;
++          break;
++        case NOT_COVERED:
++          if (isCovered)
++            covered++;
++          break;
++        }
++        coverage[idx] |= isCovered ? FULLY_COVERED : NOT_COVERED;
++      }      
+     }
+   }
+ 
+Index: src/com/mountainminds/eclemma/internal/core/analysis/MethodMatcher.java
+===================================================================
+--- src/com/mountainminds/eclemma/internal/core/analysis/MethodMatcher.java	(revision 0)
++++ src/com/mountainminds/eclemma/internal/core/analysis/MethodMatcher.java	(revision 0)
+@@ -0,0 +1,154 @@
++package com.mountainminds.eclemma.internal.core.analysis;
++
++import java.util.Arrays;
++
++import org.eclipse.core.runtime.IStatus;
++import org.eclipse.core.runtime.Status;
++import org.eclipse.jdt.core.IJavaElement;
++import org.eclipse.jdt.core.IType;
++import org.eclipse.jdt.core.JavaModelException;
++
++import com.mountainminds.eclemma.internal.core.EclEmmaCorePlugin;
++import com.vladium.emma.data.MethodDescriptor;
++
++public class MethodMatcher {
++
++  private final IType type;
++  private final IJavaElement[] children;
++  private final boolean[][] covered;
++  private final MethodDescriptor[] methods;  
++  private final int staticInitInd;
++  
++  private int childInd = 0;
++  private int methodInd = 0;
++  
++  private boolean matched = false;
++  private boolean matchedStatic = false;
++    
++  public MethodMatcher(IType type, boolean[][] covered, MethodDescriptor[] methods) throws JavaModelException {
++    this.type = type;
++    this.children = type.getChildren();
++    this.covered = covered;
++    this.methods = methods;
++    
++    // Extract the static init descriptor if there is one
++    int staticInit = -1;
++    for (int i = 0; i < methods.length; i++)      
++    {
++      if ("<clinit>".equals(methods[i].getName())) //$NON-NLS-1$
++      {
++        staticInit = i;
++        break;
++      }
++    }
++    staticInitInd = staticInit;
++  }
++
++  public boolean methodMatched() {
++
++    if (matchedStatic)
++    {
++      childInd++;
++      matchedStatic = false;
++    }
++    
++    if (matched)
++    {
++      childInd++;
++      methodInd++;
++      matched = false;
++    }
++    
++    if (methodInd == staticInitInd)
++    {
++      methodInd++;
++    }
++    
++    for (; childInd < children.length; childInd++) {
++      
++      // children[] includes more than just methods
++      // methods[] contains descriptors for all the methods and
++      // initializer code within the Class
++      // We can match up these elements by skipping over elements
++      // of children[] which are not methods or initializers.
++      // This logic relies on the fact that these two arrays
++      // hold the methods in the same order.
++      if ((children[childInd].getElementType() == IJavaElement.METHOD) || 
++          (children[childInd].getElementType() == IJavaElement.INITIALIZER)) {
++                
++        if (methodInd >= methods.length)
++        {
++          logNotEnoughMethodDescriptors();
++          return false;
++        }
++        
++        // Special case for static init blocks. These all map to a single
++        // static method descriptor
++        if (children[childInd].toString().startsWith("<static initializer ")) //$NON-NLS-1$
++        {
++          matchedStatic = true;
++          return true;
++        }
++        
++        // Special case where we have a method descriptor for the
++        // implicit no-args constructor but no corresponding java
++        // element.
++        if ("<init>".equals(methods[methodInd].getName()) && //$NON-NLS-1$
++            (!type.getElementName().equals(children[childInd].getElementName()))) {
++          // Skip over this descriptor
++          methodInd++;
++        }
++        
++        if (methodInd >= methods.length)
++        {
++          logNotEnoughMethodDescriptors();
++          return false;
++        }
++
++        matched = true;
++        return true;
++      }
++    }
++    return false;
++  }
++
++  private void logNotEnoughMethodDescriptors() {
++    IStatus status = new Status(IStatus.WARNING, 
++                                EclEmmaCorePlugin.ID,
++                                IStatus.ERROR,
++      "Fewer coverage descriptors than expected when examining type: " + type + "\n" +   //$NON-NLS-1$//$NON-NLS-2$
++      "Method Descriptors: " + toStringDescriptors(methods) + "\n" +  //$NON-NLS-1$ //$NON-NLS-2$
++      "Java Elements: " + Arrays.asList(children) + "\n",  //$NON-NLS-1$ //$NON-NLS-2$
++      new Exception());
++    EclEmmaCorePlugin.getInstance().getLog().log(status);
++  }
++
++  private String toStringDescriptors(MethodDescriptor[] methods) {
++    String ret = "["; //$NON-NLS-1$
++    for (int ii = 0; ii < methods.length; ii++)
++    {
++      MethodDescriptor method = methods[ii];
++      ret += method.getName() + method.getDescriptor();
++      if (ii < methods.length - 1)
++      {
++        ret += ","; //$NON-NLS-1$
++      }
++    }
++    ret += "]"; //$NON-NLS-1$
++    return ret;
++  }
++
++  public IJavaElement getMatchedElement() {
++    return children[childInd];
++  }
++
++  public MethodDescriptor getMatchedDescriptor() {
++    return matchedStatic ? methods[staticInitInd] : methods[methodInd];
++  }
++
++  public boolean[] getMatchedCoverageData() {
++    return ((covered == null) ? null : 
++            (matchedStatic ? covered[staticInitInd] : covered[methodInd]));
++  }
++
++}
+Index: src/com/mountainminds/eclemma/internal/core/analysis/SessionAnalyzer.java
+===================================================================
+--- src/com/mountainminds/eclemma/internal/core/analysis/SessionAnalyzer.java	(revision 989)
++++ src/com/mountainminds/eclemma/internal/core/analysis/SessionAnalyzer.java	(working copy)
+@@ -17,10 +17,13 @@
+ import org.eclipse.core.runtime.CoreException;
+ import org.eclipse.core.runtime.IPath;
+ import org.eclipse.core.runtime.IProgressMonitor;
++import org.eclipse.core.runtime.IStatus;
++import org.eclipse.core.runtime.Status;
+ import org.eclipse.core.runtime.SubProgressMonitor;
+ import org.eclipse.jdt.core.IJavaElement;
+ import org.eclipse.jdt.core.IPackageFragmentRoot;
+ import org.eclipse.jdt.core.IType;
++import org.eclipse.jdt.core.JavaModelException;
+ import org.eclipse.osgi.util.NLS;
+ 
+ import com.mountainminds.eclemma.core.EclEmmaStatus;
+@@ -29,6 +32,7 @@
+ import com.mountainminds.eclemma.core.analysis.IJavaModelCoverage;
+ import com.mountainminds.eclemma.internal.core.CoreMessages;
+ import com.mountainminds.eclemma.internal.core.DebugOptions;
++import com.mountainminds.eclemma.internal.core.EclEmmaCorePlugin;
+ import com.mountainminds.eclemma.internal.core.DebugOptions.ITracer;
+ import com.mountainminds.eclemma.internal.core.analysis.TypeCoverage.UnboundMethodCoverage;
+ import com.vladium.emma.data.ClassDescriptor;
+@@ -40,7 +44,7 @@
+ import com.vladium.emma.data.ICoverageData.DataHolder;
+ 
+ /**
+- * @author  Marc R. Hoffmann
++ * @author Marc R. Hoffmann
+  * @version $Revision$
+  */
+ public class SessionAnalyzer {
+@@ -116,14 +120,14 @@
+   }
+   
+   private class TypeVisitor implements ITypeVisitor {
+-    
++
+     private final ICoverageData coveragedata;
+     private final Map descriptors;
+-    
++
+     TypeVisitor(IMetaData metadata, ICoverageData coveragedata) {
+       this.coveragedata = coveragedata;
+       this.descriptors = new HashMap();
+-      for (Iterator i = metadata.iterator(); i.hasNext(); ) {
++      for (Iterator i = metadata.iterator(); i.hasNext();) {
+         ClassDescriptor cd = (ClassDescriptor) i.next();
+         descriptors.put(cd.getClassVMName(), cd);
+       }
+@@ -136,27 +140,80 @@
+         if (data != null && data.m_stamp != descriptor.getStamp()) {
+           TRACER.trace("Invalid meta data signature for {0}.", descriptor.getClassVMName()); //$NON-NLS-1$
+         } else {
++          // This call recurses up the hierarchy from the current Type up
++          // to the package root setting up coverage objects
+           TypeCoverage typecoverage = (TypeCoverage) getCoverage(type, descriptor.hasCompleteLineNumberInfo());
++          
++          // Check whether there are any active filters
++          boolean activeFilters = EclEmmaCorePlugin.getInstance().getJavaCoverageLoader().coverageFiltersActive();
++          
++          // This adds all the child objects and sets up their associated
++          // coverage objects
+           IResource resource = type.getResource();
+           typecoverage.addType(data != null);
+-          MethodDescriptor[] methods = descriptor.getMethods();
+-          UnboundMethodCoverage[] ubcoverage = new UnboundMethodCoverage[methods.length];
++          MethodDescriptor[] methods = descriptor.getMethods();                             
+           boolean[][] covered = data == null ? null : data.m_coverage;
+-          for (int i = 0; i < methods.length; i++) {
+-            ubcoverage[i] = processMethodCoverage(methods[i], covered == null ? null : covered[i], typecoverage, resource);
++          
++          if (!activeFilters)
++          {
++            // No active filters - revert to legacy lazy binding
++            UnboundMethodCoverage[] ubcoverage = new UnboundMethodCoverage[methods.length];
++            for (int i = 0; i < methods.length; i++) {
++              JavaElementCoverage coverage = new JavaElementCoverage(typecoverage, methods[i].hasLineNumberInfo(), resource);
++              processMethodCoverage(coverage, methods[i], covered == null ? null : covered[i], resource);
++              ubcoverage[i] = new UnboundMethodCoverage(methods[i].getName(), methods[i].getDescriptor(), coverage);
++            }
++            typecoverage.setUnboundMethods(ubcoverage);
+           }
+-          typecoverage.setUnboundMethods(ubcoverage);
++          else
++          {
++            
++            // Check whether any filters are interested in this Type          
++            boolean typeFiltered = EclEmmaCorePlugin.getInstance().getJavaCoverageLoader().isElementFiltered(type, true);
++            
++            if (!typeFiltered)
++            {
++              try {
++                MethodMatcher matcher = new MethodMatcher(type, 
++                                                          covered,
++                                                          methods);
++                while(matcher.methodMatched())
++                {
++                  // Get selected objects
++                  IJavaElement element = matcher.getMatchedElement();
++                  MethodDescriptor mdescriptor = matcher.getMatchedDescriptor();
++                  boolean[] mcoverage = matcher.getMatchedCoverageData();
++                  
++                  boolean methodFiltered = EclEmmaCorePlugin.getInstance().getJavaCoverageLoader().isElementFiltered(element, false);
++                  
++                  if (!methodFiltered)
++                  {
++                    // Setup coverage data
++                    JavaElementCoverage elementCoverage = getCoverage(element,
++                                                  mdescriptor.hasLineNumberInfo());
++                    processMethodCoverage(elementCoverage, mdescriptor,
++                                          mcoverage, resource);
++                  }
++                }              
++              } catch (JavaModelException e) {
++                IStatus status = new Status(IStatus.ERROR, EclEmmaCorePlugin.ID,
++                           IStatus.ERROR,
++                           "Exception examining methods within type: " + type,e); //$NON-NLS-1$
++                EclEmmaCorePlugin.getInstance().getLog().log(status);
++              } 
++            }
++          }
+         }
+       }
+     }
+ 
+     public void done() {
+       // dump what's left
+-      for (Iterator i = descriptors.keySet().iterator(); i.hasNext(); ) {
++      for (Iterator i = descriptors.keySet().iterator(); i.hasNext();) {
+         TRACER.trace("Instrumented type {0} has not been processed.", i.next()); //$NON-NLS-1$
+       }
+     }
+-    
++
+   }
+   
+   private boolean isMethodCovered(boolean[] blocks) {
+@@ -165,20 +222,24 @@
+     }
+     return false;
+   }
+-  
+-  private UnboundMethodCoverage processMethodCoverage(MethodDescriptor descriptor, boolean[] covered, JavaElementCoverage parentcoverage, IResource resource) {
+-    JavaElementCoverage coverage = new JavaElementCoverage(parentcoverage, descriptor.hasLineNumberInfo(), resource);
++
++  private void processMethodCoverage(JavaElementCoverage coverage,
++      MethodDescriptor descriptor, boolean[] covered, IResource resource) {    
+     coverage.addMethod(isMethodCovered(covered));
++    IJavaElement element = coverage.getJavaElement(coverage);
+     int[] blocksizes = descriptor.getBlockSizes();
+     if (blocksizes != null) {
+       int blockcount = blocksizes.length;
+       int[][] blocklines = descriptor.getBlockMap();
+       for (int i = 0; i < blockcount; i++) {
+-        coverage.addBlock(blocksizes[i], blocklines == null ? null : blocklines[i],
+-            covered == null ? false : covered[i]);
++        
++        // Apply any active line filters
++        int[] filteredLines = EclEmmaCorePlugin.getInstance().getJavaCoverageLoader().getFilteredLines(blocklines == null ? null : blocklines[i], element, false);
++        
++        // Load the block
++        coverage.addBlock(blocksizes[i], filteredLines, covered == null ? false : covered[i]);
+       }
+     }
+-    return new UnboundMethodCoverage(descriptor.getName(), descriptor.getDescriptor(), coverage);
+   }
+ 
+   private JavaElementCoverage getCoverage(IJavaElement element, boolean haslines) {
+@@ -206,5 +267,5 @@
+     }
+     return c;
+   }
+-  
++
+ }
+Index: src/com/mountainminds/eclemma/internal/core/analysis/TypeTraverser.java
+===================================================================
+--- src/com/mountainminds/eclemma/internal/core/analysis/TypeTraverser.java	(revision 989)
++++ src/com/mountainminds/eclemma/internal/core/analysis/TypeTraverser.java	(working copy)
+@@ -184,29 +184,31 @@
+       public int inc() {
+         return ++i;
+       }
++      
++      public String toString() {
++        return Integer.toString(i);
++      }
+     }
+     
+     private final String rootname;
+     private final String typename;
+-    private final Ctr ctr;
+-
+-    private BinaryTypeName(String rootname, String typename, Ctr ctr) {
++    private final Ctr ctr = new Ctr();
++    
++    private BinaryTypeName(String rootname, String typename) {
+       this.rootname = rootname;
+       this.typename = typename;
+-      this.ctr = ctr;
+     }
+     
+     public BinaryTypeName(IType roottype) {
+       this.rootname = roottype.getFullyQualifiedName().replace('.', '/');
+       this.typename = this.rootname;
+-      this.ctr = new Ctr();
+     }
+-    
++
+     public BinaryTypeName nest(IType type) throws JavaModelException {
+       if (type.isAnonymous()) {
+-        return new BinaryTypeName(rootname, rootname + '$' + ctr.inc(), ctr);
++        return new BinaryTypeName(rootname, typename + '$' + ctr.inc());
+       } else {
+-        return new BinaryTypeName(rootname, typename + '$' + type.getElementName(), ctr);
++        return new BinaryTypeName(rootname, typename + '$' + type.getElementName());
+       }
+     }
+     
+Index: src/com/mountainminds/eclemma/internal/core/JavaCoverageLoader.java
+===================================================================
+--- src/com/mountainminds/eclemma/internal/core/JavaCoverageLoader.java	(revision 989)
++++ src/com/mountainminds/eclemma/internal/core/JavaCoverageLoader.java	(working copy)
+@@ -17,11 +17,13 @@
+ import org.eclipse.core.runtime.Platform;
+ import org.eclipse.core.runtime.Status;
+ import org.eclipse.core.runtime.jobs.Job;
++import org.eclipse.jdt.core.IJavaElement;
+ import org.eclipse.osgi.util.NLS;
+ 
+ import com.mountainminds.eclemma.core.ICoverageSession;
+ import com.mountainminds.eclemma.core.ISessionListener;
+ import com.mountainminds.eclemma.core.ISessionManager;
++import com.mountainminds.eclemma.core.analysis.ICoverageFilter;
+ import com.mountainminds.eclemma.core.analysis.IJavaCoverageListener;
+ import com.mountainminds.eclemma.core.analysis.IJavaModelCoverage;
+ import com.mountainminds.eclemma.internal.core.analysis.SessionAnalyzer;
+@@ -43,6 +45,12 @@
+   private IJavaModelCoverage coverage;
+ 
+   private final List listeners = new ArrayList();
++  
++  /**
++   * List containing all active {@link ICoverageFilter} instances. The list is
++   * never null but is normally empty.
++   */
++  private final List coverageFilters = new ArrayList();
+ 
+   private ISessionListener sessionListener = new ISessionListener() {
+ 
+@@ -80,6 +88,16 @@
+     }
+ 
+     protected IStatus run(IProgressMonitor monitor) {
++      
++      // Before we process the session we must reset all filters
++      synchronized (coverageFilters) {
++        Iterator coverageFiltersIter = coverageFilters.iterator();
++        while (coverageFiltersIter.hasNext())
++        {
++          ((ICoverageFilter)coverageFiltersIter.next()).resetFilter();
++        }
++      }
++      
+       IJavaModelCoverage c;
+       try {
+         c = new SessionAnalyzer().processSession(session, monitor);
+@@ -113,7 +131,105 @@
+   public void removeJavaCoverageListener(IJavaCoverageListener l) {
+     listeners.remove(l);
+   }
++  
++  /**
++   * @param filter Filter to add to list of active filters.
++   */
++  public void addCoverageFilter(ICoverageFilter filter) {
++    if (filter == null)
++      throw new NullPointerException();
++    synchronized (coverageFilters) {
++      if (!coverageFilters.contains(filter)) {
++        coverageFilters.add(filter);  
++      }    
++    }
++  }
+ 
++  /**
++   * @param filter Filter to remove from list of active filters.
++   */
++  public void removeCoverageFilter(ICoverageFilter filter) {
++    if (filter == null)
++      throw new NullPointerException();
++    synchronized (coverageFilters) {
++      coverageFilters.remove(filter); 
++    }    
++  }
++  
++  /**
++   * @return If some filters are active
++   */
++  public boolean coverageFiltersActive() {
++    return (coverageFilters.size() > 0);
++  }
++  
++  /**
++   * @param element Element to test.
++   * @param defaultRet The value to return if no filters are present.
++   * @return True if the element should be excluded from the coverage view.
++   */
++  public boolean isElementFiltered(IJavaElement element, boolean defaultRet) {
++    
++    boolean isElementFiltered = defaultRet;
++    
++    synchronized (coverageFilters) {    
++      // Consult all the load helpers      
++      if ((coverageFilters.size() > 0) &&
++          (element != null))
++      {
++        isElementFiltered = false;
++        Iterator iter = coverageFilters.iterator();
++        while (iter.hasNext())
++        {          
++          ICoverageFilter loadHelper = (ICoverageFilter)iter.next();
++          try
++          {
++            isElementFiltered |= loadHelper.isElementFiltered(element);
++          }
++          catch (Throwable th)
++          {
++            IStatus status = new Status(IStatus.ERROR, EclEmmaCorePlugin.ID,
++                IStatus.ERROR,
++                "Uncaught exception when invoking Coverage Filer: " +  //$NON-NLS-1$
++                loadHelper.getName(), th);
++            EclEmmaCorePlugin.getInstance().getLog().log(status);
++          }
++        }
++      }
++    }
++    return isElementFiltered;
++  }
++
++  public int[] getFilteredLines(int[] lines, IJavaElement element, boolean defaultRet) {
++    int[] filteredLines = lines;
++    
++    synchronized (coverageFilters) {    
++      // Consult all the load helpers      
++      if ((coverageFilters.size() > 0) &&
++          (element != null))
++      {
++        Iterator iter = coverageFilters.iterator();
++        while (iter.hasNext())
++        {          
++          ICoverageFilter loadHelper = (ICoverageFilter)iter.next();
++          try
++          {
++            filteredLines = loadHelper.getFilteredLines(filteredLines, element);
++          }
++          catch (Throwable th)
++          {
++            IStatus status = new Status(IStatus.ERROR, EclEmmaCorePlugin.ID,
++                IStatus.ERROR,
++                "Uncaught exception when invoking Coverage Filer: " +  //$NON-NLS-1$
++                loadHelper.getName(), th);
++            EclEmmaCorePlugin.getInstance().getLog().log(status);
++          }
++        }
++      }
++    }
++    return filteredLines;
++  }
++
+   protected void fireCoverageChanged() {
+     // avoid concurrent modification issues
+     Iterator i = new ArrayList(listeners).iterator();

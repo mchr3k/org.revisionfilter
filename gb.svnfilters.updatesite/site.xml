@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/gb.svnfilter.eclemma.feature_1.0.0.2.jar" id="gb.svnfilter.eclemma.feature" version="1.0.0.2">
+      <category name="gb.svnfilters.category"/>
+   </feature>
+   <category-def name="gb.svnfilters.category" label="SVN Filters"/>
+</site>

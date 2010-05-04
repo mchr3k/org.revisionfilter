@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/12005/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/impl
+END
+AbstractScannableCodeBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/11330/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/impl/AbstractScannableCodeBase.java
+END
+DelegatingCodeBaseIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/8948/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/impl/DelegatingCodeBaseIterator.java
+END
+ClassPathImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9698/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/impl/ClassPathImpl.java
+END
+ZipInputStreamCodeBaseEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/10040/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/impl/ZipInputStreamCodeBaseEntry.java
+END
+AnalysisCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/11728/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/impl/AnalysisCache.java
+END
+SingleFileCodeBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/11330/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/impl/SingleFileCodeBase.java
+END
+ZipFileCodeBaseEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/10040/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/impl/ZipFileCodeBaseEntry.java
+END
+DelegatingCodeBaseEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/impl/DelegatingCodeBaseEntry.java
+END
+DirectoryCodeBaseEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/10040/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/impl/DirectoryCodeBaseEntry.java
+END
+NestedZipFileCodeBaseLocator.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/impl/NestedZipFileCodeBaseLocator.java
+END
+ZipCodeBaseFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/10866/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/impl/ZipCodeBaseFactory.java
+END
+AbstractScannableCodeBaseEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/impl/AbstractScannableCodeBaseEntry.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9074/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/impl/package-info.java
+END
+ZipInputStreamCodeBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/11495/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/impl/ZipInputStreamCodeBase.java
+END
+ZipFileCodeBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/12005/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/impl/ZipFileCodeBase.java
+END
+SingleFileCodeBaseEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/8889/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/impl/SingleFileCodeBaseEntry.java
+END
+ClassPathBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/11479/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/impl/ClassPathBuilder.java
+END
+DirectoryCodeBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/10040/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/impl/DirectoryCodeBase.java
+END
+NestedZipFileCodeBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/11495/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/impl/NestedZipFileCodeBase.java
+END
+ClassFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/10866/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/impl/ClassFactory.java
+END
+FilesystemCodeBaseLocator.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/10041/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/impl/FilesystemCodeBaseLocator.java
+END

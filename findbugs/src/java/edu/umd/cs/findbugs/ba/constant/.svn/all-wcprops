@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9832/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/constant
+END
+ConstantFrameModelingVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/constant/ConstantFrameModelingVisitor.java
+END
+ConstantFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3787/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/constant/ConstantFrame.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9635/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/constant/package-info.java
+END
+Constant.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/constant/Constant.java
+END
+ConstantDataflow.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/8229/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/constant/ConstantDataflow.java
+END
+ConstantAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9832/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/constant/ConstantAnalysis.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/eclemma/!svn/ver/384/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/launching
+END
+NoCoverageDataHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svnroot/eclemma/!svn/ver/131/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/launching/NoCoverageDataHandler.java
+END
+AlreadyInstrumentedHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svnroot/eclemma/!svn/ver/70/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/launching/AlreadyInstrumentedHandler.java
+END
+NoInstrumentedClassesHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svnroot/eclemma/!svn/ver/154/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/launching/NoInstrumentedClassesHandler.java
+END
+InplaceInstrumentationHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svnroot/eclemma/!svn/ver/12/eclemma/trunk/com.mountainminds.eclemma.ui/src/com/mountainminds/eclemma/internal/ui/launching/InplaceInstrumentationHandler.java
+END

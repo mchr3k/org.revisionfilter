@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/10518/trunk/eclipsePlugin/src/edu/umd/cs/findbugs/plugin/eclipse/quickfix/util
+END
+ConditionCheck.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/7955/trunk/eclipsePlugin/src/edu/umd/cs/findbugs/plugin/eclipse/quickfix/util/ConditionCheck.java
+END
+ASTUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/10518/trunk/eclipsePlugin/src/edu/umd/cs/findbugs/plugin/eclipse/quickfix/util/ASTUtil.java
+END
+ImportDeclarationComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/10517/trunk/eclipsePlugin/src/edu/umd/cs/findbugs/plugin/eclipse/quickfix/util/ImportDeclarationComparator.java
+END
+SourceLineVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/7955/trunk/eclipsePlugin/src/edu/umd/cs/findbugs/plugin/eclipse/quickfix/util/SourceLineVisitor.java
+END

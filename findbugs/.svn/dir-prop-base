@@ -1,0 +1,23 @@
+K 10
+svn:ignore
+V 146
+build
+doc
+plugin
+*.patch
+*.diff
+*.fb
+*.zip
+foo
+web
+jnlp
+apiJavaDoc
+annotationJavaDoc
+*.fpr
+*.fvdl
+.fbwarnings
+local.properties
+bin
+classesEclipse
+
+END

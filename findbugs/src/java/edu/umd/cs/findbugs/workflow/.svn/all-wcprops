@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/12102/trunk/findbugs/src/java/edu/umd/cs/findbugs/workflow
+END
+BugHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/12040/trunk/findbugs/src/java/edu/umd/cs/findbugs/workflow/BugHistory.java
+END
+CloudReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/12057/trunk/findbugs/src/java/edu/umd/cs/findbugs/workflow/CloudReport.java
+END
+PrintAppVersion.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/12040/trunk/findbugs/src/java/edu/umd/cs/findbugs/workflow/PrintAppVersion.java
+END
+CountClassVersions.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/12102/trunk/findbugs/src/java/edu/umd/cs/findbugs/workflow/CountClassVersions.java
+END
+MineBugHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/12040/trunk/findbugs/src/java/edu/umd/cs/findbugs/workflow/MineBugHistory.java
+END
+UnionResults.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/12040/trunk/findbugs/src/java/edu/umd/cs/findbugs/workflow/UnionResults.java
+END
+ListBugDatabaseInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/12040/trunk/findbugs/src/java/edu/umd/cs/findbugs/workflow/ListBugDatabaseInfo.java
+END
+CountByPackagePrefix.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/11807/trunk/findbugs/src/java/edu/umd/cs/findbugs/workflow/CountByPackagePrefix.java
+END
+SourceSearcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/11153/trunk/findbugs/src/java/edu/umd/cs/findbugs/workflow/SourceSearcher.java
+END
+Churn.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/11889/trunk/findbugs/src/java/edu/umd/cs/findbugs/workflow/Churn.java
+END
+TreemapVisualization.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/12040/trunk/findbugs/src/java/edu/umd/cs/findbugs/workflow/TreemapVisualization.java
+END
+FileBugHash.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/12102/trunk/findbugs/src/java/edu/umd/cs/findbugs/workflow/FileBugHash.java
+END
+Update.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/12040/trunk/findbugs/src/java/edu/umd/cs/findbugs/workflow/Update.java
+END
+RebornIssues.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/12040/trunk/findbugs/src/java/edu/umd/cs/findbugs/workflow/RebornIssues.java
+END
+Filter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/12048/trunk/findbugs/src/java/edu/umd/cs/findbugs/workflow/Filter.java
+END
+CopyBuggySource.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/12040/trunk/findbugs/src/java/edu/umd/cs/findbugs/workflow/CopyBuggySource.java
+END
+RecursiveSearchForJavaFiles.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/workflow/RecursiveSearchForJavaFiles.java
+END
+SetBugDatabaseInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/12040/trunk/findbugs/src/java/edu/umd/cs/findbugs/workflow/SetBugDatabaseInfo.java
+END
+DefectDensity.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/12040/trunk/findbugs/src/java/edu/umd/cs/findbugs/workflow/DefectDensity.java
+END
+RejarClassesForAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/12040/trunk/findbugs/src/java/edu/umd/cs/findbugs/workflow/RejarClassesForAnalysis.java
+END
+TestingGround.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/12070/trunk/findbugs/src/java/edu/umd/cs/findbugs/workflow/TestingGround.java
+END
+ObfuscateBugs.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/12040/trunk/findbugs/src/java/edu/umd/cs/findbugs/workflow/ObfuscateBugs.java
+END

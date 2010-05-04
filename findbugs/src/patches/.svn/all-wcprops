@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/10558/trunk/findbugs/src/patches
+END
+asm.version
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/8247/trunk/findbugs/src/patches/asm.version
+END
+bcel.diff
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/10558/trunk/findbugs/src/patches/bcel.diff
+END

@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/12070/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile
+END
+IClassPathBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/IClassPathBuilder.java
+END
+ICodeBaseLocator.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/ICodeBaseLocator.java
+END
+IDatabaseFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/IDatabaseFactory.java
+END
+IClassFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/10866/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/IClassFactory.java
+END
+ReflectionDatabaseFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9738/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/ReflectionDatabaseFactory.java
+END
+IClassAnalysisEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/8548/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/IClassAnalysisEngine.java
+END
+CheckedAnalysisException.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/8827/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/CheckedAnalysisException.java
+END
+IClassConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/8388/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/IClassConstants.java
+END
+ClassNameMismatchException.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/ClassNameMismatchException.java
+END
+MissingClassException.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/MissingClassException.java
+END
+MethodDescriptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/11531/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/MethodDescriptor.java
+END
+IAnalysisCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/11728/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/IAnalysisCache.java
+END
+FieldDescriptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9003/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/FieldDescriptor.java
+END
+IAnalysisEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/8548/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/IAnalysisEngine.java
+END
+ResourceNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/ResourceNotFoundException.java
+END
+IMethodAnalysisEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/8360/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/IMethodAnalysisEngine.java
+END
+FieldOrMethodDescriptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/11786/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/FieldOrMethodDescriptor.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9074/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/package-info.java
+END
+FieldOrMethodName.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/8365/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/FieldOrMethodName.java
+END
+IClassObserver.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/6126/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/IClassObserver.java
+END
+IClassPath.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/IClassPath.java
+END
+ICodeBaseEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/ICodeBaseEntry.java
+END
+Global.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9115/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/Global.java
+END
+RecomputableClassAnalysisEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/8360/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/RecomputableClassAnalysisEngine.java
+END
+IErrorLogger.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/IErrorLogger.java
+END
+InvalidClassFileFormatException.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/8353/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/InvalidClassFileFormatException.java
+END
+ClassDescriptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/11712/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/ClassDescriptor.java
+END
+IAnalysisEngineRegistrar.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/5846/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/IAnalysisEngineRegistrar.java
+END
+DescriptorFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/11805/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/DescriptorFactory.java
+END
+UncheckedAnalysisException.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/9744/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/UncheckedAnalysisException.java
+END
+ICodeBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9289/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/ICodeBase.java
+END
+IScannableCodeBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/IScannableCodeBase.java
+END
+IClassPathBuilderProgress.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/10866/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/IClassPathBuilderProgress.java
+END
+ICodeBaseIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/ICodeBaseIterator.java
+END

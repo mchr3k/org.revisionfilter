@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<fragment>
+   <extension
+         point="edu.umd.cs.findbugs.plugin.eclipse.findbugsFilter">
+      <findbugsFilter
+            Class="gb.svnfilter.findbugs.SvnMarkerFilter">
+      </findbugsFilter>
+   </extension>
+   <extension
+         point="org.eclipse.jdt.ui.javaElementFilters">
+      <filter
+            class="gb.svnfilter.findbugs.SvnElementFilter"
+            description="Filter out Java Elements which have not changed according to SVN."
+            enabled="false"
+            id="SvnElementFilter"
+            name="SVN Dirty Java Files"
+            targetId="org.eclipse.jdt.ui.PackageExplorer">
+      </filter>
+   </extension>
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            adaptable="true"
+            id="gb.svnfilter.findbugs.ProjectActions"
+            objectClass="org.eclipse.core.resources.IProject">
+         <action
+               class="gb.svnfilter.findbugs.FindBugsSvnAction"
+               icon="icons/runFindbugs.png"
+               id="gb.svnfilter.findbugs.findbugssvn"
+               label="&amp;Find Bugs (SVN)"
+               menubarPath="findbugs/doit"
+               tooltip="Scan SVN dirty elements within the selection for bugs.">
+         </action>
+      </objectContribution>
+   </extension>
+
+</fragment>

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12070/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/analysis
+END
+ClassData.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/analysis/ClassData.java
+END
+FieldInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/10268/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/analysis/FieldInfo.java
+END
+ClassInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/11751/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/analysis/ClassInfo.java
+END
+EnumValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9722/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/analysis/EnumValue.java
+END
+AnnotatedObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/10401/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/analysis/AnnotatedObject.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9074/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/analysis/package-info.java
+END
+AnnotationValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/10268/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/analysis/AnnotationValue.java
+END
+ClassNameAndSuperclassInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/10410/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/analysis/ClassNameAndSuperclassInfo.java
+END
+MethodInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/12070/trunk/findbugs/src/java/edu/umd/cs/findbugs/classfile/analysis/MethodInfo.java
+END

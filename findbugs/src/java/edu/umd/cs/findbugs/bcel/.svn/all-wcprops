@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/11514/trunk/findbugs/src/java/edu/umd/cs/findbugs/bcel
+END
+BCELUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9588/trunk/findbugs/src/java/edu/umd/cs/findbugs/bcel/BCELUtil.java
+END
+AnnotationDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/bcel/AnnotationDetector.java
+END
+OpcodeStackDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/10602/trunk/findbugs/src/java/edu/umd/cs/findbugs/bcel/OpcodeStackDetector.java
+END
+CFGDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/11514/trunk/findbugs/src/java/edu/umd/cs/findbugs/bcel/CFGDetector.java
+END
+PreorderDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/bcel/PreorderDetector.java
+END

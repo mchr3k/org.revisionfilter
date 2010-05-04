@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9698/trunk/findbugs/src/java5/edu/umd/cs/findbugs/sourceViewer
+END
+NumberedEditorKit.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/7943/trunk/findbugs/src/java5/edu/umd/cs/findbugs/sourceViewer/NumberedEditorKit.java
+END
+JavaSourceDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/8990/trunk/findbugs/src/java5/edu/umd/cs/findbugs/sourceViewer/JavaSourceDocument.java
+END
+NavigableTextPane.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/8063/trunk/findbugs/src/java5/edu/umd/cs/findbugs/sourceViewer/NavigableTextPane.java
+END
+NumberedParagraphView.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/8990/trunk/findbugs/src/java5/edu/umd/cs/findbugs/sourceViewer/NumberedParagraphView.java
+END
+NumberedViewFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/8990/trunk/findbugs/src/java5/edu/umd/cs/findbugs/sourceViewer/NumberedViewFactory.java
+END
+DocumentCharacterIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/7943/trunk/findbugs/src/java5/edu/umd/cs/findbugs/sourceViewer/DocumentCharacterIterator.java
+END
+NoWrapBoxView.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/7942/trunk/findbugs/src/java5/edu/umd/cs/findbugs/sourceViewer/NoWrapBoxView.java
+END
+JavaScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9698/trunk/findbugs/src/java5/edu/umd/cs/findbugs/sourceViewer/JavaScanner.java
+END
+HighlightInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/7943/trunk/findbugs/src/java5/edu/umd/cs/findbugs/sourceViewer/HighlightInformation.java
+END

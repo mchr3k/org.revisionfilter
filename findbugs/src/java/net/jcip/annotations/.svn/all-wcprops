@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/11980/trunk/findbugs/src/java/net/jcip/annotations
+END
+Immutable.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11980/trunk/findbugs/src/java/net/jcip/annotations/Immutable.java
+END
+ThreadSafe.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/11980/trunk/findbugs/src/java/net/jcip/annotations/ThreadSafe.java
+END
+GuardedBy.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11980/trunk/findbugs/src/java/net/jcip/annotations/GuardedBy.java
+END
+NotThreadSafe.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/11980/trunk/findbugs/src/java/net/jcip/annotations/NotThreadSafe.java
+END

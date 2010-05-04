@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/11611/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/ch
+END
+Subtypes2.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/11611/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/ch/Subtypes2.java
+END
+InterproceduralCallGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/10091/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/ch/InterproceduralCallGraph.java
+END
+ClassVertex.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9995/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/ch/ClassVertex.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9074/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/ch/package-info.java
+END
+OverriddenMethodsVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/11524/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/ch/OverriddenMethodsVisitor.java
+END
+InterproceduralCallGraphEdge.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/9679/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/ch/InterproceduralCallGraphEdge.java
+END
+InheritanceGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/8485/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/ch/InheritanceGraph.java
+END
+InheritanceGraphVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/8552/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/ch/InheritanceGraphVisitor.java
+END
+InheritanceEdge.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/8315/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/ch/InheritanceEdge.java
+END
+InterproceduralCallGraphVertex.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/9679/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/ch/InterproceduralCallGraphVertex.java
+END

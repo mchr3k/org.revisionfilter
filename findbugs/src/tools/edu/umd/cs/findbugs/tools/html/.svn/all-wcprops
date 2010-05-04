@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/7945/trunk/findbugs/src/tools/edu/umd/cs/findbugs/tools/html
+END
+PrintBugDescriptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/4886/trunk/findbugs/src/tools/edu/umd/cs/findbugs/tools/html/PrintBugDescriptions.java
+END
+PlainPrintBugDescriptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/6496/trunk/findbugs/src/tools/edu/umd/cs/findbugs/tools/html/PlainPrintBugDescriptions.java
+END
+PrettyPrintBugDescriptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/7945/trunk/findbugs/src/tools/edu/umd/cs/findbugs/tools/html/PrettyPrintBugDescriptions.java
+END
+ColorAlternator.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2129/trunk/findbugs/src/tools/edu/umd/cs/findbugs/tools/html/ColorAlternator.java
+END

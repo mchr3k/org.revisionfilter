@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/11261/trunk/findbugs/src/java/edu/umd/cs/findbugs/ml
+END
+GenerateUIDs.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/10894/trunk/findbugs/src/java/edu/umd/cs/findbugs/ml/GenerateUIDs.java
+END
+ConvertToARFF.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/11261/trunk/findbugs/src/java/edu/umd/cs/findbugs/ml/ConvertToARFF.java
+END
+SplitCamelCaseIdentifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9698/trunk/findbugs/src/java/edu/umd/cs/findbugs/ml/SplitCamelCaseIdentifier.java
+END

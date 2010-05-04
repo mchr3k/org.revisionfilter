@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/11967/trunk/findbugs/src/tools/edu/umd/cs/findbugs/tools
+END
+FilterPropertyDatabase.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/11752/trunk/findbugs/src/tools/edu/umd/cs/findbugs/tools/FilterPropertyDatabase.java
+END
+FilterAndCombineBitfieldPropertyDatabase.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/11696/trunk/findbugs/src/tools/edu/umd/cs/findbugs/tools/FilterAndCombineBitfieldPropertyDatabase.java
+END
+FixIndentation.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/7947/trunk/findbugs/src/tools/edu/umd/cs/findbugs/tools/FixIndentation.java
+END
+CheckClassfileVersion.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/11967/trunk/findbugs/src/tools/edu/umd/cs/findbugs/tools/CheckClassfileVersion.java
+END

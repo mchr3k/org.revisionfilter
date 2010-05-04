@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/11694/trunk/eclipsePlugin/src/de/tobject/findbugs/builder
+END
+WorkItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/10949/trunk/eclipsePlugin/src/de/tobject/findbugs/builder/WorkItem.java
+END
+PDEClassPathGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/11694/trunk/eclipsePlugin/src/de/tobject/findbugs/builder/PDEClassPathGenerator.java
+END
+FindBugsBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/10949/trunk/eclipsePlugin/src/de/tobject/findbugs/builder/FindBugsBuilder.java
+END
+ResourceUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/10949/trunk/eclipsePlugin/src/de/tobject/findbugs/builder/ResourceUtils.java
+END
+FindBugsWorker.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/10949/trunk/eclipsePlugin/src/de/tobject/findbugs/builder/FindBugsWorker.java
+END

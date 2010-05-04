@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/11913/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/deref
+END
+UnconditionalValueDerefSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/11744/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/deref/UnconditionalValueDerefSet.java
+END
+UnconditionalValueDerefDataflow.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/deref/UnconditionalValueDerefDataflow.java
+END
+UnconditionalValueDerefAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/11913/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/deref/UnconditionalValueDerefAnalysis.java
+END

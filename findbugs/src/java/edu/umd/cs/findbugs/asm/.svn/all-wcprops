@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/10152/trunk/findbugs/src/java/edu/umd/cs/findbugs/asm
+END
+FBClassReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/10152/trunk/findbugs/src/java/edu/umd/cs/findbugs/asm/FBClassReader.java
+END
+ClassNodeDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/asm/ClassNodeDetector.java
+END
+FBMethodVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/8247/trunk/findbugs/src/java/edu/umd/cs/findbugs/asm/FBMethodVisitor.java
+END
+AbstractFBMethodVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9554/trunk/findbugs/src/java/edu/umd/cs/findbugs/asm/AbstractFBMethodVisitor.java
+END

@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/11377/trunk/eclipsePlugin/src/de/tobject/findbugs/view/explorer
+END
+ResourceChangeListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/10747/trunk/eclipsePlugin/src/de/tobject/findbugs/view/explorer/ResourceChangeListener.java
+END
+EmptyGroupsFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/10391/trunk/eclipsePlugin/src/de/tobject/findbugs/view/explorer/EmptyGroupsFilter.java
+END
+DeltaInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/10747/trunk/eclipsePlugin/src/de/tobject/findbugs/view/explorer/DeltaInfo.java
+END
+BugPrioritySorter.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/10391/trunk/eclipsePlugin/src/de/tobject/findbugs/view/explorer/BugPrioritySorter.java
+END
+GroupSelectionDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/10784/trunk/eclipsePlugin/src/de/tobject/findbugs/view/explorer/GroupSelectionDialog.java
+END
+BugContentProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/10949/trunk/eclipsePlugin/src/de/tobject/findbugs/view/explorer/BugContentProvider.java
+END
+IViewerRefreshJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/10358/trunk/eclipsePlugin/src/de/tobject/findbugs/view/explorer/IViewerRefreshJob.java
+END
+WorkingSetsFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/10565/trunk/eclipsePlugin/src/de/tobject/findbugs/view/explorer/WorkingSetsFilter.java
+END
+MarkerMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/10434/trunk/eclipsePlugin/src/de/tobject/findbugs/view/explorer/MarkerMapper.java
+END
+BugActionProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/10949/trunk/eclipsePlugin/src/de/tobject/findbugs/view/explorer/BugActionProvider.java
+END
+FilterBugsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/10753/trunk/eclipsePlugin/src/de/tobject/findbugs/view/explorer/FilterBugsDialog.java
+END
+BugLabelProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/10634/trunk/eclipsePlugin/src/de/tobject/findbugs/view/explorer/BugLabelProvider.java
+END
+GroupPropertyTester.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/10391/trunk/eclipsePlugin/src/de/tobject/findbugs/view/explorer/GroupPropertyTester.java
+END
+RefreshJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/11059/trunk/eclipsePlugin/src/de/tobject/findbugs/view/explorer/RefreshJob.java
+END
+BugGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/10747/trunk/eclipsePlugin/src/de/tobject/findbugs/view/explorer/BugGroup.java
+END
+Grouping.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/10919/trunk/eclipsePlugin/src/de/tobject/findbugs/view/explorer/Grouping.java
+END
+BugByIdFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/10579/trunk/eclipsePlugin/src/de/tobject/findbugs/view/explorer/BugByIdFilter.java
+END
+GroupType.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/10949/trunk/eclipsePlugin/src/de/tobject/findbugs/view/explorer/GroupType.java
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/12091/trunk/findbugs/src/junit/edu/umd/cs/findbugs
+END
+BugInstanceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/8256/trunk/findbugs/src/junit/edu/umd/cs/findbugs/BugInstanceTest.java
+END
+RunnableWithExceptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/8337/trunk/findbugs/src/junit/edu/umd/cs/findbugs/RunnableWithExceptions.java
+END
+JUnitDetectorAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/8800/trunk/findbugs/src/junit/edu/umd/cs/findbugs/JUnitDetectorAdapter.java
+END
+ObfuscateTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/11825/trunk/findbugs/src/junit/edu/umd/cs/findbugs/ObfuscateTest.java
+END
+DetectorsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/11519/trunk/findbugs/src/junit/edu/umd/cs/findbugs/DetectorsTest.java
+END
+ClassScreenerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/7952/trunk/findbugs/src/junit/edu/umd/cs/findbugs/ClassScreenerTest.java
+END
+FindBugsTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/8990/trunk/findbugs/src/junit/edu/umd/cs/findbugs/FindBugsTestCase.java
+END
+OpcodeStackItemTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5793/trunk/findbugs/src/junit/edu/umd/cs/findbugs/OpcodeStackItemTest.java
+END

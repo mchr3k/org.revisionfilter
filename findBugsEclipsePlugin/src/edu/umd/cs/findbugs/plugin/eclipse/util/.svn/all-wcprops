@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/10758/trunk/eclipsePlugin/src/edu/umd/cs/findbugs/plugin/eclipse/util
+END
+MutexSchedulingRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/10758/trunk/eclipsePlugin/src/edu/umd/cs/findbugs/plugin/eclipse/util/MutexSchedulingRule.java
+END

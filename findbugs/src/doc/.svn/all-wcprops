@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/12002/trunk/findbugs/src/doc
+END
+AddingDetectors.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/6455/trunk/findbugs/src/doc/AddingDetectors.txt
+END
+links.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/10652/trunk/findbugs/src/doc/links.html
+END
+manual_ja.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/10656/trunk/findbugs/src/doc/manual_ja.xml
+END
+findbugs.css
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2447/trunk/findbugs/src/doc/findbugs.css
+END
+performingARelease.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/11545/trunk/findbugs/src/doc/performingARelease.txt
+END
+guaranteedDereference.png
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/6739/trunk/findbugs/src/doc/guaranteedDereference.png
+END
+informal.png
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/445/trunk/findbugs/src/doc/informal.png
+END
+bug-logo.png
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/445/trunk/findbugs/src/doc/bug-logo.png
+END
+publications.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/9352/trunk/findbugs/src/doc/publications.html
+END
+mailingLists.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5129/trunk/findbugs/src/doc/mailingLists.html
+END
+eclipse-filters-icon.png
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2422/trunk/findbugs/src/doc/eclipse-filters-icon.png
+END
+FilterFile.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/661/trunk/findbugs/src/doc/FilterFile.txt
+END
+users.html
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/9834/trunk/findbugs/src/doc/users.html
+END
+manual.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/10950/trunk/findbugs/src/doc/manual.xml
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3983/trunk/findbugs/src/doc/.cvsignore
+END
+manual.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/5130/trunk/findbugs/src/doc/manual.xsl
+END
+manual-fo.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/9794/trunk/findbugs/src/doc/manual-fo.xsl
+END
+demo.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/9401/trunk/findbugs/src/doc/demo.html
+END
+team.html
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/10759/trunk/findbugs/src/doc/team.html
+END
+umdFindbugs.png
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/5106/trunk/findbugs/src/doc/umdFindbugs.png
+END
+downloads.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/10547/trunk/findbugs/src/doc/downloads.html
+END
+reportingBugs.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/6576/trunk/findbugs/src/doc/reportingBugs.html
+END
+infiniteRecursiveLoops.png
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/5103/trunk/findbugs/src/doc/infiniteRecursiveLoops.png
+END
+ClassDiagram.graffle
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/10701/trunk/findbugs/src/doc/ClassDiagram.graffle
+END
+plugins.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/11973/trunk/findbugs/src/doc/plugins.txt
+END
+pressRelease.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/5588/trunk/findbugs/src/doc/pressRelease.pdf
+END
+sysprops.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/12002/trunk/findbugs/src/doc/sysprops.html
+END
+factSheet.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/9781/trunk/findbugs/src/doc/factSheet.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/11563/trunk/findbugs/src/doc/index.html
+END
+contributing.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/10519/trunk/findbugs/src/doc/contributing.html
+END
+FAQ.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/12002/trunk/findbugs/src/doc/FAQ.html
+END
+Changes.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/11560/trunk/findbugs/src/doc/Changes.html
+END
+buggy-sm.png
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/5106/trunk/findbugs/src/doc/buggy-sm.png
+END

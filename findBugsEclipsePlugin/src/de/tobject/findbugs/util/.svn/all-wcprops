@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/10949/trunk/eclipsePlugin/src/de/tobject/findbugs/util
+END
+ProjectUtilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/10758/trunk/eclipsePlugin/src/de/tobject/findbugs/util/ProjectUtilities.java
+END
+EditorUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/10949/trunk/eclipsePlugin/src/de/tobject/findbugs/util/EditorUtil.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/10949/trunk/eclipsePlugin/src/de/tobject/findbugs/util/Util.java
+END
+ConfigurableXmlOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/10866/trunk/eclipsePlugin/src/de/tobject/findbugs/util/ConfigurableXmlOutputStream.java
+END

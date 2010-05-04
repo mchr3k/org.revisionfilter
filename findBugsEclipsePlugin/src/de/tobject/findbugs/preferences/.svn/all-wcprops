@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/10949/trunk/eclipsePlugin/src/de/tobject/findbugs/preferences
+END
+FindBugsPreferenceInitializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/10949/trunk/eclipsePlugin/src/de/tobject/findbugs/preferences/FindBugsPreferenceInitializer.java
+END
+FindBugsConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/10949/trunk/eclipsePlugin/src/de/tobject/findbugs/preferences/FindBugsConstants.java
+END

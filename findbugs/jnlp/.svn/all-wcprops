@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/12054/trunk/findbugs/jnlp
+END
+findbugs.jnlp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/11795/trunk/findbugs/jnlp/findbugs.jnlp
+END
+core.jnlp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/12002/trunk/findbugs/jnlp/core.jnlp
+END
+desktop.jnlp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/10986/trunk/findbugs/jnlp/desktop.jnlp
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/6144/trunk/findbugs/jnlp/.cvsignore
+END
+example.jnlp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/12054/trunk/findbugs/jnlp/example.jnlp
+END

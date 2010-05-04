@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/11377/trunk/eclipsePlugin/src/de/tobject/findbugs/view
+END
+AbstractFindbugsView.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/10595/trunk/eclipsePlugin/src/de/tobject/findbugs/view/AbstractFindbugsView.java
+END
+FindBugsPerspectiveFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/10949/trunk/eclipsePlugin/src/de/tobject/findbugs/view/FindBugsPerspectiveFactory.java
+END
+FindBugsConsole.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/10866/trunk/eclipsePlugin/src/de/tobject/findbugs/view/FindBugsConsole.java
+END
+UserAnnotationsView.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/10902/trunk/eclipsePlugin/src/de/tobject/findbugs/view/UserAnnotationsView.java
+END
+BugExplorerView.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/10600/trunk/eclipsePlugin/src/de/tobject/findbugs/view/BugExplorerView.java
+END
+MarkerSelectionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/10428/trunk/eclipsePlugin/src/de/tobject/findbugs/view/MarkerSelectionListener.java
+END
+IMarkerSelectionHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/10428/trunk/eclipsePlugin/src/de/tobject/findbugs/view/IMarkerSelectionHandler.java
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/10758/trunk/eclipsePlugin/src/de/tobject/findbugs/wizards
+END
+ExportWizardPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/10758/trunk/eclipsePlugin/src/de/tobject/findbugs/wizards/ExportWizardPage.java
+END
+BugCountsExportWizard.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9348/trunk/eclipsePlugin/src/de/tobject/findbugs/wizards/BugCountsExportWizard.java
+END

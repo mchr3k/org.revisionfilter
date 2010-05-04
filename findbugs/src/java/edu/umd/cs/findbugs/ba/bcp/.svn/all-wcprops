@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/10729/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp
+END
+Wild.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/Wild.java
+END
+LocalVariable.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/LocalVariable.java
+END
+MatchAny.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/MatchAny.java
+END
+PatternElementMatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9698/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/PatternElementMatch.java
+END
+FieldAccess.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/FieldAccess.java
+END
+Opcode.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/Opcode.java
+END
+ByteCodePatternMatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/ByteCodePatternMatch.java
+END
+Binding.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9698/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/Binding.java
+END
+LongOrDoubleLocalVariable.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/LongOrDoubleLocalVariable.java
+END
+Load.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/Load.java
+END
+PatternMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/8983/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/PatternMatcher.java
+END
+SingleInstruction.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/SingleInstruction.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9074/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/package-info.java
+END
+Variable.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1851/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/Variable.java
+END
+Monitorenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/Monitorenter.java
+END
+BindingSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9698/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/BindingSet.java
+END
+PatternElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9698/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/PatternElement.java
+END
+OneVariableInstruction.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/OneVariableInstruction.java
+END
+FieldVariable.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9698/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/FieldVariable.java
+END
+IfNull.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/8954/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/IfNull.java
+END
+New.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/New.java
+END
+MatchResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2763/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/MatchResult.java
+END
+Invoke.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/10729/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/Invoke.java
+END
+ByteCodePattern.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9698/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/ByteCodePattern.java
+END
+Store.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/ba/bcp/Store.java
+END

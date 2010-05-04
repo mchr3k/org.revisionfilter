@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/5065/trunk/findbugs/src/scripts/deprecated
+END
+bugHistory
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5065/trunk/findbugs/src/scripts/deprecated/bugHistory
+END
+updateBugs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5065/trunk/findbugs/src/scripts/deprecated/updateBugs
+END
+unionBugs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5065/trunk/findbugs/src/scripts/deprecated/unionBugs
+END
+unionResults
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/5065/trunk/findbugs/src/scripts/deprecated/unionResults
+END

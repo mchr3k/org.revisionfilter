@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/10605/trunk/findbugs/src/xsl
+END
+summary.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/8035/trunk/findbugs/src/xsl/summary.xsl
+END
+fancy.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/10347/trunk/findbugs/src/xsl/fancy.xsl
+END
+plain.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/9275/trunk/findbugs/src/xsl/plain.xsl
+END
+default.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/9459/trunk/findbugs/src/xsl/default.xsl
+END
+fancy-hist.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/10605/trunk/findbugs/src/xsl/fancy-hist.xsl
+END

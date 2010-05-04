@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/11984/trunk/findbugs/src/java/edu/umd/cs/findbugs/log
+END
+Logger.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11984/trunk/findbugs/src/java/edu/umd/cs/findbugs/log/Logger.java
+END
+Profiler.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/11807/trunk/findbugs/src/java/edu/umd/cs/findbugs/log/Profiler.java
+END
+ConsoleLogger.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/11984/trunk/findbugs/src/java/edu/umd/cs/findbugs/log/ConsoleLogger.java
+END
+YourKitController.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/11920/trunk/findbugs/src/java/edu/umd/cs/findbugs/log/YourKitController.java
+END
+LogSync.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/11984/trunk/findbugs/src/java/edu/umd/cs/findbugs/log/LogSync.java
+END

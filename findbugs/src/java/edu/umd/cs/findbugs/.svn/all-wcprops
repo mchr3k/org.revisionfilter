@@ -1,0 +1,863 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/12104/trunk/findbugs/src/java/edu/umd/cs/findbugs
+END
+CallSite.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/8236/trunk/findbugs/src/java/edu/umd/cs/findbugs/CallSite.java
+END
+DetectorFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/10697/trunk/findbugs/src/java/edu/umd/cs/findbugs/DetectorFactory.java
+END
+StringAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/12091/trunk/findbugs/src/java/edu/umd/cs/findbugs/StringAnnotation.java
+END
+BugDesignation.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/11993/trunk/findbugs/src/java/edu/umd/cs/findbugs/BugDesignation.java
+END
+SAXBugCollectionHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/12091/trunk/findbugs/src/java/edu/umd/cs/findbugs/SAXBugCollectionHandler.java
+END
+TextUIBugReporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/10989/trunk/findbugs/src/java/edu/umd/cs/findbugs/TextUIBugReporter.java
+END
+FatalException.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/FatalException.java
+END
+FindBugsAnnotationDescriptions_ja.properties
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/10470/trunk/findbugs/src/java/edu/umd/cs/findbugs/FindBugsAnnotationDescriptions_ja.properties
+END
+EmacsBugReporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/EmacsBugReporter.java
+END
+BugCollectionBugReporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/12036/trunk/findbugs/src/java/edu/umd/cs/findbugs/BugCollectionBugReporter.java
+END
+BugPattern.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/10972/trunk/findbugs/src/java/edu/umd/cs/findbugs/BugPattern.java
+END
+PrintingBugReporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/11984/trunk/findbugs/src/java/edu/umd/cs/findbugs/PrintingBugReporter.java
+END
+MethodAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/11714/trunk/findbugs/src/java/edu/umd/cs/findbugs/MethodAnnotation.java
+END
+ParameterWarningSuppressor.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9484/trunk/findbugs/src/java/edu/umd/cs/findbugs/ParameterWarningSuppressor.java
+END
+PluginException.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/4078/trunk/findbugs/src/java/edu/umd/cs/findbugs/PluginException.java
+END
+IFindBugsEngine2.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/11352/trunk/findbugs/src/java/edu/umd/cs/findbugs/IFindBugsEngine2.java
+END
+Footprint.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11475/trunk/findbugs/src/java/edu/umd/cs/findbugs/Footprint.java
+END
+Version.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/11565/trunk/findbugs/src/java/edu/umd/cs/findbugs/Version.java
+END
+PluginLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/12048/trunk/findbugs/src/java/edu/umd/cs/findbugs/PluginLoader.java
+END
+ExitCodes.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2763/trunk/findbugs/src/java/edu/umd/cs/findbugs/ExitCodes.java
+END
+TextUICommandLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/12031/trunk/findbugs/src/java/edu/umd/cs/findbugs/TextUICommandLine.java
+END
+ClassScreener.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12091/trunk/findbugs/src/java/edu/umd/cs/findbugs/ClassScreener.java
+END
+Plugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/11187/trunk/findbugs/src/java/edu/umd/cs/findbugs/Plugin.java
+END
+BugReporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/11886/trunk/findbugs/src/java/edu/umd/cs/findbugs/BugReporter.java
+END
+ResourceCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/4886/trunk/findbugs/src/java/edu/umd/cs/findbugs/ResourceCollection.java
+END
+SortingBugReporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/6496/trunk/findbugs/src/java/edu/umd/cs/findbugs/SortingBugReporter.java
+END
+BugAnnotationUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9609/trunk/findbugs/src/java/edu/umd/cs/findbugs/BugAnnotationUtil.java
+END
+SelfCalls.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/6125/trunk/findbugs/src/java/edu/umd/cs/findbugs/SelfCalls.java
+END
+FirstPassDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/10116/trunk/findbugs/src/java/edu/umd/cs/findbugs/FirstPassDetector.java
+END
+SortedBugCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/12102/trunk/findbugs/src/java/edu/umd/cs/findbugs/SortedBugCollection.java
+END
+Tokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/9698/trunk/findbugs/src/java/edu/umd/cs/findbugs/Tokenizer.java
+END
+L10N.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/L10N.java
+END
+StartTime.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11154/trunk/findbugs/src/java/edu/umd/cs/findbugs/StartTime.java
+END
+DetectorFactoryCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/12050/trunk/findbugs/src/java/edu/umd/cs/findbugs/DetectorFactoryCollection.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1871/trunk/findbugs/src/java/edu/umd/cs/findbugs/package.html
+END
+I18N.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/10982/trunk/findbugs/src/java/edu/umd/cs/findbugs/I18N.java
+END
+Token.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2763/trunk/findbugs/src/java/edu/umd/cs/findbugs/Token.java
+END
+FindBugs2.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11807/trunk/findbugs/src/java/edu/umd/cs/findbugs/FindBugs2.java
+END
+DetectorFactoryChooser.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/7952/trunk/findbugs/src/java/edu/umd/cs/findbugs/DetectorFactoryChooser.java
+END
+DelegatingBugReporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/DelegatingBugReporter.java
+END
+ResourceCreationPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2763/trunk/findbugs/src/java/edu/umd/cs/findbugs/ResourceCreationPoint.java
+END
+ProjectPackagePrefixes.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/11807/trunk/findbugs/src/java/edu/umd/cs/findbugs/ProjectPackagePrefixes.java
+END
+ShowHelp.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/11984/trunk/findbugs/src/java/edu/umd/cs/findbugs/ShowHelp.java
+END
+Priorities.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/Priorities.java
+END
+InstructionScannerGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2763/trunk/findbugs/src/java/edu/umd/cs/findbugs/InstructionScannerGenerator.java
+END
+BugAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/11024/trunk/findbugs/src/java/edu/umd/cs/findbugs/BugAnnotation.java
+END
+BugCode.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/10576/trunk/findbugs/src/java/edu/umd/cs/findbugs/BugCode.java
+END
+BugReporterObserver.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2763/trunk/findbugs/src/java/edu/umd/cs/findbugs/BugReporterObserver.java
+END
+Detector.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/6596/trunk/findbugs/src/java/edu/umd/cs/findbugs/Detector.java
+END
+Lookup.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/11619/trunk/findbugs/src/java/edu/umd/cs/findbugs/Lookup.java
+END
+BytecodeScanningDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/4884/trunk/findbugs/src/java/edu/umd/cs/findbugs/BytecodeScanningDetector.java
+END
+UserDesignations_ja.properties
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/10470/trunk/findbugs/src/java/edu/umd/cs/findbugs/UserDesignations_ja.properties
+END
+NonReportingDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/10115/trunk/findbugs/src/java/edu/umd/cs/findbugs/NonReportingDetector.java
+END
+FieldAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/11057/trunk/findbugs/src/java/edu/umd/cs/findbugs/FieldAnnotation.java
+END
+PackageMemberAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/11993/trunk/findbugs/src/java/edu/umd/cs/findbugs/PackageMemberAnnotation.java
+END
+BugAnnotationWithSourceLines.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/11024/trunk/findbugs/src/java/edu/umd/cs/findbugs/BugAnnotationWithSourceLines.java
+END
+ProgramPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/12101/trunk/findbugs/src/java/edu/umd/cs/findbugs/ProgramPoint.java
+END
+FindBugsDisplayFeatures.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/FindBugsDisplayFeatures.java
+END
+JavaVersion.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9698/trunk/findbugs/src/java/edu/umd/cs/findbugs/JavaVersion.java
+END
+LocalVariableAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/11572/trunk/findbugs/src/java/edu/umd/cs/findbugs/LocalVariableAnnotation.java
+END
+RecursiveFileSearch.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9755/trunk/findbugs/src/java/edu/umd/cs/findbugs/RecursiveFileSearch.java
+END
+AnalysisLocal.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9827/trunk/findbugs/src/java/edu/umd/cs/findbugs/AnalysisLocal.java
+END
+SwitchHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/10536/trunk/findbugs/src/java/edu/umd/cs/findbugs/SwitchHandler.java
+END
+ExcludingHashesBugReporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/10894/trunk/findbugs/src/java/edu/umd/cs/findbugs/ExcludingHashesBugReporter.java
+END
+StatelessDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5471/trunk/findbugs/src/java/edu/umd/cs/findbugs/StatelessDetector.java
+END
+BugInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/12102/trunk/findbugs/src/java/edu/umd/cs/findbugs/BugInstance.java
+END
+CategoryFilteringBugReporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/8968/trunk/findbugs/src/java/edu/umd/cs/findbugs/CategoryFilteringBugReporter.java
+END
+CallGraphNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/4886/trunk/findbugs/src/java/edu/umd/cs/findbugs/CallGraphNode.java
+END
+TrainingDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5947/trunk/findbugs/src/java/edu/umd/cs/findbugs/TrainingDetector.java
+END
+JavaVersionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/4078/trunk/findbugs/src/java/edu/umd/cs/findbugs/JavaVersionException.java
+END
+InstructionScannerDriver.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/8236/trunk/findbugs/src/java/edu/umd/cs/findbugs/InstructionScannerDriver.java
+END
+Obfuscate.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11890/trunk/findbugs/src/java/edu/umd/cs/findbugs/Obfuscate.java
+END
+BugAccumulator.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/12100/trunk/findbugs/src/java/edu/umd/cs/findbugs/BugAccumulator.java
+END
+LaunchAppropriateUI.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/11984/trunk/findbugs/src/java/edu/umd/cs/findbugs/LaunchAppropriateUI.java
+END
+FindBugsMessageFormat.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/10085/trunk/findbugs/src/java/edu/umd/cs/findbugs/FindBugsMessageFormat.java
+END
+AddMessages.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/10894/trunk/findbugs/src/java/edu/umd/cs/findbugs/AddMessages.java
+END
+AddAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/12000/trunk/findbugs/src/java/edu/umd/cs/findbugs/AddAnnotation.java
+END
+ProjectStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/11591/trunk/findbugs/src/java/edu/umd/cs/findbugs/ProjectStats.java
+END
+InterproceduralFirstPassDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/4501/trunk/findbugs/src/java/edu/umd/cs/findbugs/InterproceduralFirstPassDetector.java
+END
+InstructionScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/4886/trunk/findbugs/src/java/edu/umd/cs/findbugs/InstructionScanner.java
+END
+WarningComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/4685/trunk/findbugs/src/java/edu/umd/cs/findbugs/WarningComparator.java
+END
+OpcodeStack.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/12087/trunk/findbugs/src/java/edu/umd/cs/findbugs/OpcodeStack.java
+END
+IFindBugsEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/11767/trunk/findbugs/src/java/edu/umd/cs/findbugs/IFindBugsEngine.java
+END
+CommandLineUiCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/12086/trunk/findbugs/src/java/edu/umd/cs/findbugs/CommandLineUiCallback.java
+END
+SystemProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/11811/trunk/findbugs/src/java/edu/umd/cs/findbugs/SystemProperties.java
+END
+FindBugs.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/12040/trunk/findbugs/src/java/edu/umd/cs/findbugs/FindBugs.java
+END
+ResourceTrackingDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/11467/trunk/findbugs/src/java/edu/umd/cs/findbugs/ResourceTrackingDetector.java
+END
+BugCategory.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/BugCategory.java
+END
+NewResults.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/10894/trunk/findbugs/src/java/edu/umd/cs/findbugs/NewResults.java
+END
+SloppyBugComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/8990/trunk/findbugs/src/java/edu/umd/cs/findbugs/SloppyBugComparator.java
+END
+FuzzyBugComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/10714/trunk/findbugs/src/java/edu/umd/cs/findbugs/FuzzyBugComparator.java
+END
+ErrorCountingBugReporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/10150/trunk/findbugs/src/java/edu/umd/cs/findbugs/ErrorCountingBugReporter.java
+END
+NoOpFindBugsProgress.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/10866/trunk/findbugs/src/java/edu/umd/cs/findbugs/NoOpFindBugsProgress.java
+END
+IntAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/11024/trunk/findbugs/src/java/edu/umd/cs/findbugs/IntAnnotation.java
+END
+DetectorToDetector2Adapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/10866/trunk/findbugs/src/java/edu/umd/cs/findbugs/DetectorToDetector2Adapter.java
+END
+NoClassesFoundToAnalyzeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9132/trunk/findbugs/src/java/edu/umd/cs/findbugs/NoClassesFoundToAnalyzeException.java
+END
+CallGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/6497/trunk/findbugs/src/java/edu/umd/cs/findbugs/CallGraph.java
+END
+FindBugsAnnotationDescriptions.properties
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/11592/trunk/findbugs/src/java/edu/umd/cs/findbugs/FindBugsAnnotationDescriptions.properties
+END
+AnalysisOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/10692/trunk/findbugs/src/java/edu/umd/cs/findbugs/AnalysisOptions.java
+END
+ClassAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/10723/trunk/findbugs/src/java/edu/umd/cs/findbugs/ClassAnnotation.java
+END
+XDocsBugReporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/10894/trunk/findbugs/src/java/edu/umd/cs/findbugs/XDocsBugReporter.java
+END
+CheckBcel.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/10171/trunk/findbugs/src/java/edu/umd/cs/findbugs/CheckBcel.java
+END
+IClassScreener.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9148/trunk/findbugs/src/java/edu/umd/cs/findbugs/IClassScreener.java
+END
+WarningSuppressor.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9307/trunk/findbugs/src/java/edu/umd/cs/findbugs/WarningSuppressor.java
+END
+PropertyBundle.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/12048/trunk/findbugs/src/java/edu/umd/cs/findbugs/PropertyBundle.java
+END
+FieldWarningSuppressor.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9484/trunk/findbugs/src/java/edu/umd/cs/findbugs/FieldWarningSuppressor.java
+END
+BugRanker.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11657/trunk/findbugs/src/java/edu/umd/cs/findbugs/BugRanker.java
+END
+XMLBugReporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/12036/trunk/findbugs/src/java/edu/umd/cs/findbugs/XMLBugReporter.java
+END
+XMLWriteableWithMessages.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9431/trunk/findbugs/src/java/edu/umd/cs/findbugs/XMLWriteableWithMessages.java
+END
+FindBugsProgress.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/10866/trunk/findbugs/src/java/edu/umd/cs/findbugs/FindBugsProgress.java
+END
+PackageWarningSuppressor.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/PackageWarningSuppressor.java
+END
+BugCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/11521/trunk/findbugs/src/java/edu/umd/cs/findbugs/BugCollection.java
+END
+ClassWarningSuppressor.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/ClassWarningSuppressor.java
+END
+UserDesignations.properties
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/11303/trunk/findbugs/src/java/edu/umd/cs/findbugs/UserDesignations.properties
+END
+SourceLineAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/11518/trunk/findbugs/src/java/edu/umd/cs/findbugs/SourceLineAnnotation.java
+END
+FindBugsAnalysisFeatures.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/10292/trunk/findbugs/src/java/edu/umd/cs/findbugs/FindBugsAnalysisFeatures.java
+END
+PackageStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/11993/trunk/findbugs/src/java/edu/umd/cs/findbugs/PackageStats.java
+END
+MethodWarningSuppressor.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/MethodWarningSuppressor.java
+END
+UseAnnotationDatabase.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/8302/trunk/findbugs/src/java/edu/umd/cs/findbugs/UseAnnotationDatabase.java
+END
+BugProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/BugProperty.java
+END
+VersionInsensitiveBugComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/11594/trunk/findbugs/src/java/edu/umd/cs/findbugs/VersionInsensitiveBugComparator.java
+END
+SuppressionMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/8070/trunk/findbugs/src/java/edu/umd/cs/findbugs/SuppressionMatcher.java
+END
+NonReportingDetectorToDetector2Adapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/9545/trunk/findbugs/src/java/edu/umd/cs/findbugs/NonReportingDetectorToDetector2Adapter.java
+END
+Analyze.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/8845/trunk/findbugs/src/java/edu/umd/cs/findbugs/Analyze.java
+END
+FilterBugReporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/8958/trunk/findbugs/src/java/edu/umd/cs/findbugs/FilterBugReporter.java
+END
+Project.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/12070/trunk/findbugs/src/java/edu/umd/cs/findbugs/Project.java
+END
+PluginDoesntContainMetadataException.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/12001/trunk/findbugs/src/java/edu/umd/cs/findbugs/PluginDoesntContainMetadataException.java
+END
+FindBugsCommandLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/11351/trunk/findbugs/src/java/edu/umd/cs/findbugs/FindBugsCommandLine.java
+END
+IGuiCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/12086/trunk/findbugs/src/java/edu/umd/cs/findbugs/IGuiCallback.java
+END
+AnalysisCacheToRepositoryAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/8675/trunk/findbugs/src/java/edu/umd/cs/findbugs/AnalysisCacheToRepositoryAdapter.java
+END
+TypeAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/10916/trunk/findbugs/src/java/edu/umd/cs/findbugs/TypeAnnotation.java
+END
+QueryBugAnnotations.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/10894/trunk/findbugs/src/java/edu/umd/cs/findbugs/QueryBugAnnotations.java
+END
+CallGraphEdge.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/4886/trunk/findbugs/src/java/edu/umd/cs/findbugs/CallGraphEdge.java
+END
+AbstractBugReporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/11599/trunk/findbugs/src/java/edu/umd/cs/findbugs/AbstractBugReporter.java
+END
+TextUIProgressCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/10866/trunk/findbugs/src/java/edu/umd/cs/findbugs/TextUIProgressCallback.java
+END
+HTMLBugReporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/10894/trunk/findbugs/src/java/edu/umd/cs/findbugs/HTMLBugReporter.java
+END
+AppVersion.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11189/trunk/findbugs/src/java/edu/umd/cs/findbugs/AppVersion.java
+END
+ByteCodePatternDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/ByteCodePatternDetector.java
+END
+BugAnnotationVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/7949/trunk/findbugs/src/java/edu/umd/cs/findbugs/BugAnnotationVisitor.java
+END
+Detector2.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/6596/trunk/findbugs/src/java/edu/umd/cs/findbugs/Detector2.java
+END
+DiscoverSourceDirectories.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/10866/trunk/findbugs/src/java/edu/umd/cs/findbugs/DiscoverSourceDirectories.java
+END
+AnalysisError.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9293/trunk/findbugs/src/java/edu/umd/cs/findbugs/AnalysisError.java
+END
+DeepSubtypeAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9364/trunk/findbugs/src/java/edu/umd/cs/findbugs/DeepSubtypeAnalysis.java
+END
