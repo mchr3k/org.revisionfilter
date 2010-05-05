@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Revision Utils
+Bundle-SymbolicName: org.revisionfilter.utils
+Bundle-Version: 1.0.0.0
+Bundle-Activator: org.revisionfilter.utils.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.team.core;bundle-version="3.5.0",
+ org.tigris.subversion.subclipse.core;bundle-version="1.6.5",
+ org.eclipse.core.resources;bundle-version="3.5.1",
+ org.eclipse.compare;bundle-version="3.5.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
