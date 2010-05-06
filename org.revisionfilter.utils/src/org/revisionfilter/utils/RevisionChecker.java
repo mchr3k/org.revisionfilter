@@ -3,7 +3,7 @@ package org.revisionfilter.utils;
 import java.util.List;
 
 import org.eclipse.core.resources.IFile;
-import org.revisionfilter.utils.internal.SVNRevisionSystem;
+import org.revisionfilter.utils.svn.SVNRevisionSystem;
 
 public class RevisionChecker implements IRevisionSystem
 {
