@@ -1,10 +1,14 @@
 package org.revisionfilter.utils;
 
-import java.util.List;
+import java.util.Set;
 
 import org.eclipse.core.resources.IFile;
-import org.revisionfilter.utils.svn.SVNRevisionSystem;
+import org.eclipse.core.resources.IResource;
+import org.revisionfilter.utils.rcs.svn.SVNRevisionSystem;
 
+/**
+ * Used to check a resource against the base revision within a revision control system.
+ */
 public class RevisionChecker implements IRevisionSystem
 {
   private final IRevisionSystem system;
@@ -14,21 +18,33 @@ public class RevisionChecker implements IRevisionSystem
     SVN
   }
   
+  /**
+   * Default cTor - Assume we are using SVN
+   */
+  public RevisionChecker()
+  {
+    this(RevisionSystem.SVN);    
+  }
+  
+  /**
+   * cTor for a specific type of backend
+   * @param type
+   */
   public RevisionChecker(RevisionSystem type)
   {
     system = new SVNRevisionSystem();    
   }
 
   @Override
-  public List<Integer> getDirtyLines(IFile file)
+  public boolean isDirty(IResource resource, int flags)
   {
-    return system.getDirtyLines(file);
+    return system.isDirty(resource, flags);
   }
 
   @Override
-  public boolean isDirty(IFile file)
+  public Set<Integer> getDirtyLines(IFile file)
   {
-    return system.isDirty(file);
+    return system.getDirtyLines(file);
   }
   
   
