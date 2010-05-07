@@ -1,8 +1,12 @@
 package gb.svnfilter.eclemma;
-import gb.svnutils.SvnDiffManager;
 import gb.svnutils.SvnUtilsConsoleFactory;
 
+import java.util.Set;
+
+import org.eclipse.core.resources.IFile;
 import org.eclipse.jdt.core.IJavaElement;
+import org.revisionfilter.utils.RevisionChecker;
+import org.revisionfilter.utils.rcs.svn.SVNRevisionSystem;
 
 import com.mountainminds.eclemma.core.analysis.ICoverageFilter;
 
@@ -11,8 +15,7 @@ import com.mountainminds.eclemma.core.analysis.ICoverageFilter;
  */
 public class SvnLineCoverageFilter implements ICoverageFilter
 {
-  /** SVN Diff manager **/
-  private SvnDiffManager diffManager = null;
+  private RevisionChecker revisionChecker = null;
 
   @Override
   public String getName()
@@ -36,16 +39,18 @@ public class SvnLineCoverageFilter implements ICoverageFilter
   public void resetFilter()
   {
     SvnUtilsConsoleFactory.outputLine("EclEmma Line filter reset");
-    diffManager = new SvnDiffManager();
+    revisionChecker = new RevisionChecker();
   }
 
   @Override
   public boolean isElementFiltered(IJavaElement element)
   {
     boolean ret = false;
-    if (diffManager != null)
+    if (revisionChecker != null)
     {
-      ret = !diffManager.isSVNDirty(element);
+      ret = !revisionChecker.isDirty(element.getResource(), 
+                                 SVNRevisionSystem.DIRTY_ADDED | 
+                                 SVNRevisionSystem.DIRTY_UNVERSIONED);
     }
     return ret;
   }
@@ -53,9 +58,31 @@ public class SvnLineCoverageFilter implements ICoverageFilter
   @Override
   public int[] getFilteredLines(int[] lines, IJavaElement element) {
     int[] ret = lines;
-    if (diffManager != null)
-    {
-      ret = diffManager.filterSVNCleanLines(lines, element);
+    if (revisionChecker != null)
+    {      
+      Set<Integer> dirtyLines = revisionChecker.getDirtyLines((IFile)element.getResource());
+      
+      // Work out how many coverage lines are dirty
+      int numDirtyLines = 0;
+      for (int lineNo : lines)
+      {
+        if (dirtyLines.contains(Integer.valueOf(lineNo)))
+        {
+          numDirtyLines++;
+        }
+      }
+      
+      // Generate a new coverage array without the clean lines
+      int index = 0;
+      ret = new int[numDirtyLines];
+      for (int lineNo : lines)
+      {
+        if (dirtyLines.contains(Integer.valueOf(lineNo)))
+        {
+          ret[index] = lineNo;
+          index++;
+        }
+      }
     }
     return ret;
   }

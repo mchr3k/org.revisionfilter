@@ -11,3 +11,6 @@ Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.compare;bundle-version="3.5.0"
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: org.revisionfilter.utils,
+ org.revisionfilter.utils.impl,
+ org.revisionfilter.utils.rcs.svn

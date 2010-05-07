@@ -1,8 +1,9 @@
 package gb.svnfilter.eclemma;
-import gb.svnutils.SvnDiffManager;
 import gb.svnutils.SvnUtilsConsoleFactory;
 
 import org.eclipse.jdt.core.IJavaElement;
+import org.revisionfilter.utils.RevisionChecker;
+import org.revisionfilter.utils.rcs.svn.SVNRevisionSystem;
 
 import com.mountainminds.eclemma.core.analysis.ICoverageFilter;
 
@@ -11,8 +12,7 @@ import com.mountainminds.eclemma.core.analysis.ICoverageFilter;
  */
 public class SvnMethodCoverageFilter implements ICoverageFilter
 {
-  /** SVN Diff manager **/
-  private SvnDiffManager diffManager = null;
+  private RevisionChecker revisionChecker = null;
 
   @Override
   public String getName()
@@ -36,16 +36,18 @@ public class SvnMethodCoverageFilter implements ICoverageFilter
   public void resetFilter()
   {
     SvnUtilsConsoleFactory.outputLine("EclEmma Method filter reset");
-    diffManager = new SvnDiffManager();
+    revisionChecker = new RevisionChecker();
   }
 
   @Override
   public boolean isElementFiltered(IJavaElement element)
   {
     boolean ret = false;
-    if (diffManager != null)
+    if (revisionChecker != null)
     {
-      ret = !diffManager.isSVNDirty(element);
+      ret = !revisionChecker.isDirty(element.getResource(), 
+                                 SVNRevisionSystem.DIRTY_ADDED | 
+                                 SVNRevisionSystem.DIRTY_UNVERSIONED);
     }
     return ret;
   }
