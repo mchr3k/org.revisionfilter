@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.console.consoleFactories">
+      <consoleFactory
+            class="org.revisionfilter.utils.console.RevisionFilterConsoleFactory"
+            label="RevisonFilter Console">
+      </consoleFactory>
+   </extension>
+   <extension
+         point="org.eclipse.ui.console.consolePageParticipants">
+      <consolePageParticipant
+            class="org.revisionfilter.utils.console.PageParticipant"
+            id="org.revisionfilter.utils.consolePageParticipant">
+         <enablement></enablement>
+      </consolePageParticipant>
+   </extension>
+   <extension
+         point="org.eclipse.jdt.ui.javaElementFilters">
+      <filter
+            class="org.revisionfilter.utils.filter.SVNCleanElementFilter"
+            description="Filter out resources which have not changed according to SVN."
+            enabled="false"
+            id="CleanElementSvnRevisionSystemFilter"
+            name="SVN Clean Resources"
+            targetId="org.eclipse.jdt.ui.PackageExplorer">
+      </filter>
+   </extension>
+
+</plugin>

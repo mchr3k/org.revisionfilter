@@ -9,3 +9,69 @@ svn:wc:ra_dav:version-url
 V 140
 /svnroot/eclemma/!svn/ver/871/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/analysis/Counter.java
 END
+TypeTraverser.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svnroot/eclemma/!svn/ver/418/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/analysis/TypeTraverser.java
+END
+JavaElementCoverageAdapterFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svnroot/eclemma/!svn/ver/11/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/analysis/JavaElementCoverageAdapterFactory.java
+END
+ILazyBinding.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svnroot/eclemma/!svn/ver/199/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/analysis/ILazyBinding.java
+END
+SignatureResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svnroot/eclemma/!svn/ver/539/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/analysis/SignatureResolver.java
+END
+MethodLocator.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svnroot/eclemma/!svn/ver/532/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/analysis/MethodLocator.java
+END
+JavaElementCoverage.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svnroot/eclemma/!svn/ver/199/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/analysis/JavaElementCoverage.java
+END
+SessionAnalyzer.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svnroot/eclemma/!svn/ver/473/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/analysis/SessionAnalyzer.java
+END
+ITypeVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svnroot/eclemma/!svn/ver/192/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/analysis/ITypeVisitor.java
+END
+Lines.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/eclemma/!svn/ver/174/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/analysis/Lines.java
+END
+TypeCoverage.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svnroot/eclemma/!svn/ver/532/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/analysis/TypeCoverage.java
+END
+JavaModelCoverage.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svnroot/eclemma/!svn/ver/199/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/analysis/JavaModelCoverage.java
+END

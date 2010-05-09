@@ -25,7 +25,7 @@ import com.mountainminds.eclemma.core.analysis.IJavaModelCoverage;
  * The IJavaModelCoverage implementation maps Java elements to its corresponding
  * coverage data objects.
  * 
- * @author Marc R. Hoffmann
+ * @author  Marc R. Hoffmann
  * @version $Revision: 199 $
  */
 public class JavaModelCoverage extends JavaElementCoverage implements
@@ -37,16 +37,16 @@ public class JavaModelCoverage extends JavaElementCoverage implements
   /** Maps coverage objects to Java elements */
   private final Map elementmap = new HashMap();
   
-  /** List of all IJavaProject objects with coverage information attached */
+  /** List of all IJavaProject objects with coverage information attached */  
   private final List projects = new ArrayList();
 
   /** List of all IPackageFragmentRoot objects with coverage information attached */  
   private final List fragmentroots = new ArrayList();
 
-  /** List of all IPackageFragment objects with coverage information attached */
+  /** List of all IPackageFragment objects with coverage information attached */  
   private final List fragments = new ArrayList();
 
-  /** List of all IType objects with coverage information attached */
+  /** List of all IType objects with coverage information attached */  
   private final List types = new ArrayList();
 
   public JavaModelCoverage() {

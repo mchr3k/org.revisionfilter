@@ -3,3 +3,69 @@ svn:wc:ra_dav:version-url
 V 109
 /svnroot/eclemma/!svn/ver/871/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core
 END
+IClassFiles.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/eclemma/!svn/ver/519/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core/IClassFiles.java
+END
+ISessionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/eclemma/!svn/ver/11/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core/ISessionListener.java
+END
+ISourceLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/eclemma/!svn/ver/11/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core/ISourceLocation.java
+END
+ICorePreferences.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/eclemma/!svn/ver/517/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core/ICorePreferences.java
+END
+ISessionExporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/eclemma/!svn/ver/62/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core/ISessionExporter.java
+END
+EclEmmaStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/eclemma/!svn/ver/473/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core/EclEmmaStatus.java
+END
+ISessionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/eclemma/!svn/ver/76/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core/ISessionManager.java
+END
+ICoverageSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/eclemma/!svn/ver/39/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core/ICoverageSession.java
+END
+CoverageTools.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/eclemma/!svn/ver/523/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core/CoverageTools.java
+END
+IInstrumentation.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/eclemma/!svn/ver/11/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core/IInstrumentation.java
+END
+ISessionImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/eclemma/!svn/ver/432/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core/ISessionImporter.java
+END

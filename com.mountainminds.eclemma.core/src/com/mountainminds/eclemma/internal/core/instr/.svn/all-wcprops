@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/eclemma/!svn/ver/522/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/instr
+END
+InstrMarker.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svnroot/eclemma/!svn/ver/21/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/instr/InstrMarker.java
+END
+Instrumentation.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/eclemma/!svn/ver/39/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/instr/Instrumentation.java
+END
+ClassFilesStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svnroot/eclemma/!svn/ver/521/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/instr/ClassFilesStore.java
+END
+ClassFiles.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svnroot/eclemma/!svn/ver/522/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/instr/ClassFiles.java
+END
+SourceLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svnroot/eclemma/!svn/ver/84/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/instr/SourceLocation.java
+END
+DefaultInstrumentationFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svnroot/eclemma/!svn/ver/522/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/instr/DefaultInstrumentationFilter.java
+END

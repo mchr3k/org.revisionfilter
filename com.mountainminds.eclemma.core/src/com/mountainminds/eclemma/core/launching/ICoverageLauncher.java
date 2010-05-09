@@ -3,7 +3,7 @@
  * This software is provided under the terms of the Eclipse Public License v1.0
  * See http://www.eclipse.org/legal/epl-v10.html.
  *
- * $Id$
+ * $Id: ICoverageLauncher.java 158 2006-10-30 17:21:33Z mtnminds $
  ******************************************************************************/
 package com.mountainminds.eclemma.core.launching;
 
@@ -17,7 +17,7 @@ import com.mountainminds.eclemma.core.IClassFiles;
  * The launch delegate for coverage configurations.
  *  
  * @author Marc R. Hoffmann
- * @version $Revision$
+ * @version $Revision: 158 $
  */
 public interface ICoverageLauncher extends ILaunchConfigurationDelegate2 {
 

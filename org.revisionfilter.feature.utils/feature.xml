@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.revisionfilter.feature.utils"
+      label="RevisionFilter Utils"
+      version="1.0.0.0">
+
+   <description>
+      Add the following features.
+- SVN Clean Files Package Explorer Filter
+- Revision Filter Console (Used for diagnostic output)
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="org.revisionfilter.utils"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.0"
+         unpack="false"/>
+
+</feature>

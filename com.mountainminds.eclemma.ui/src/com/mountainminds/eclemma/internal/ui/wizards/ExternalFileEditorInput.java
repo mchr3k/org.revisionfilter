@@ -3,7 +3,7 @@
  * This software is provided under the terms of the Eclipse Public License v1.0
  * See http://www.eclipse.org/legal/epl-v10.html.
  *
- * $Id$
+ * $Id: ExternalFileEditorInput.java 67 2006-09-12 15:36:18Z mho $
  ******************************************************************************/
 package com.mountainminds.eclemma.internal.ui.wizards;
 
@@ -21,7 +21,7 @@ import org.eclipse.ui.editors.text.ILocationProvider;
  * Editor input for external files.
  * 
  * @author Marc R. Hoffmann
- * @version $Revision$
+ * @version $Revision: 67 $
  */
 public class ExternalFileEditorInput extends PlatformObject implements
     IPathEditorInput, ILocationProvider {

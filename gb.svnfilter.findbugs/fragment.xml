@@ -8,17 +8,6 @@
       </findbugsFilter>
    </extension>
    <extension
-         point="org.eclipse.jdt.ui.javaElementFilters">
-      <filter
-            class="gb.svnfilter.findbugs.SvnElementFilter"
-            description="Filter out Java Elements which have not changed according to SVN."
-            enabled="false"
-            id="SvnElementFilter"
-            name="SVN Dirty Java Files"
-            targetId="org.eclipse.jdt.ui.PackageExplorer">
-      </filter>
-   </extension>
-   <extension
          point="org.eclipse.ui.popupMenus">
       <objectContribution
             adaptable="true"

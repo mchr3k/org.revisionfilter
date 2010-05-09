@@ -17,7 +17,7 @@ import com.mountainminds.eclemma.core.analysis.ILineCoverage;
 /**
  * IJavaElementCoverage implementation.
  * 
- * @author Marc R. Hoffmann
+ * @author  Marc R. Hoffmann
  * @version $Revision: 199 $
  */
 public class JavaElementCoverage implements IJavaElementCoverage {
@@ -27,7 +27,7 @@ public class JavaElementCoverage implements IJavaElementCoverage {
   private Counter blockCounter;
   private Counter lineCounter;
   private Counter instructionsCounter;
-
+  
   private final JavaElementCoverage parent;
   private final Lines lines;
   private final long modificationStamp;
@@ -51,10 +51,8 @@ public class JavaElementCoverage implements IJavaElementCoverage {
   public void addBlock(int instructions, int[] lines, boolean covered) {
     addBlock(instructions, lines, covered, 0, 0);
   }
-
-  private void addBlock(int instructions, int[] lines, boolean covered,
-      int totalLineDelta, int coveredLineDelta) {
-    
+  
+  private void addBlock(int instructions, int[] lines, boolean covered, int totalLineDelta, int coveredLineDelta) {
     blockCounter = blockCounter.increment(1, covered ? 1 : 0);
     instructionsCounter = instructionsCounter.increment(instructions, covered ? instructions : 0);
     if (this.lines == null) {
@@ -75,7 +73,7 @@ public class JavaElementCoverage implements IJavaElementCoverage {
       }
     }
   }
-
+  
   public void addMethod(boolean covered) {
     methodCounter = methodCounter.increment(1, covered ? 1 : 0);
     if (parent != null) {
@@ -91,7 +89,7 @@ public class JavaElementCoverage implements IJavaElementCoverage {
   }
 
   // IJavaElementCoverage implementation:
-
+  
   public ICounter getBlockCounter() {
     return blockCounter;
   }
@@ -100,7 +98,7 @@ public class JavaElementCoverage implements IJavaElementCoverage {
     if (lines == null) {
       return lineCounter;
     } else {
-      return lines;
+      return lines; 
     }
   }
 
@@ -111,7 +109,7 @@ public class JavaElementCoverage implements IJavaElementCoverage {
   public ILineCoverage getLineCoverage() {
     return lines;
   }
-
+    
   public ICounter getMethodCounter() {
     return methodCounter;
   }

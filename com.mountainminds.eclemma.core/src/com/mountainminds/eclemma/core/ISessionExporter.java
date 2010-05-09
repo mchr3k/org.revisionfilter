@@ -3,7 +3,7 @@
  * This software is provided under the terms of the Eclipse Public License v1.0
  * See http://www.eclipse.org/legal/epl-v10.html.
  *
- * $Id$
+ * $Id: ISessionExporter.java 62 2006-09-11 15:45:07Z mho $
  ******************************************************************************/
 package com.mountainminds.eclemma.core;
 
@@ -18,7 +18,7 @@ import org.eclipse.core.runtime.IProgressMonitor;
  * instance.
  * 
  * @author Marc R. Hoffmann
- * @version $Revision$
+ * @version $Revision: 62 $
  */
 public interface ISessionExporter {
 

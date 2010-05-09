@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/eclemma/!svn/ver/521/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core/launching
+END
+ICoverageLaunchConfigurationConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svnroot/eclemma/!svn/ver/11/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core/launching/ICoverageLaunchConfigurationConstants.java
+END
+EclipseLauncher.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svnroot/eclemma/!svn/ver/510/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core/launching/EclipseLauncher.java
+END
+ICoverageLauncher.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svnroot/eclemma/!svn/ver/158/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core/launching/ICoverageLauncher.java
+END
+JavaApplicationLauncher.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svnroot/eclemma/!svn/ver/378/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core/launching/JavaApplicationLauncher.java
+END
+ICoverageLaunchInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/eclemma/!svn/ver/399/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core/launching/ICoverageLaunchInfo.java
+END
+CoverageLauncher.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svnroot/eclemma/!svn/ver/521/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core/launching/CoverageLauncher.java
+END

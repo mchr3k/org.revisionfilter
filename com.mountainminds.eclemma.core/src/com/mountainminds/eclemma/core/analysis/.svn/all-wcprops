@@ -3,9 +3,33 @@ svn:wc:ra_dav:version-url
 V 118
 /svnroot/eclemma/!svn/ver/871/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core/analysis
 END
+IJavaElementCoverage.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/eclemma/!svn/ver/174/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core/analysis/IJavaElementCoverage.java
+END
+IJavaModelCoverage.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svnroot/eclemma/!svn/ver/180/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core/analysis/IJavaModelCoverage.java
+END
 ICounter.java
 K 25
 svn:wc:ra_dav:version-url
 V 132
 /svnroot/eclemma/!svn/ver/871/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core/analysis/ICounter.java
+END
+IJavaCoverageListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/eclemma/!svn/ver/17/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core/analysis/IJavaCoverageListener.java
+END
+ILineCoverage.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svnroot/eclemma/!svn/ver/11/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/core/analysis/ILineCoverage.java
 END

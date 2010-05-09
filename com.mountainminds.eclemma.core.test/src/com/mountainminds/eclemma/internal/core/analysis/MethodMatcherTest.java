@@ -13,7 +13,6 @@ import org.eclipse.core.resources.IFile;
 import org.eclipse.core.resources.IResource;
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.IConfigurationElement;
-import org.eclipse.core.runtime.IContributor;
 import org.eclipse.core.runtime.IExtension;
 import org.eclipse.core.runtime.IPath;
 import org.eclipse.core.runtime.InvalidRegistryObjectException;
@@ -744,11 +743,6 @@ public class MethodMatcherTest extends TestCase {
     public boolean isValid() {
       // Do nothing
       return false;
-    }
-
-    public IContributor getContributor() throws InvalidRegistryObjectException {
-      // Do nothing
-      return null;
     }
 
   }

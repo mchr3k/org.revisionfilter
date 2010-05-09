@@ -3,11 +3,47 @@ svn:wc:ra_dav:version-url
 V 74
 /svnroot/eclemma/!svn/ver/871/eclemma/trunk/com.mountainminds.eclemma.core
 END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/eclemma/!svn/ver/514/eclemma/trunk/com.mountainminds.eclemma.core/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/eclemma/!svn/ver/1/eclemma/trunk/com.mountainminds.eclemma.core/.project
+END
+.options
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/eclemma/!svn/ver/1/eclemma/trunk/com.mountainminds.eclemma.core/.options
+END
 plugin.properties
 K 25
 svn:wc:ra_dav:version-url
 V 92
 /svnroot/eclemma/!svn/ver/709/eclemma/trunk/com.mountainminds.eclemma.core/plugin.properties
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/eclemma/!svn/ver/1/eclemma/trunk/com.mountainminds.eclemma.core/build.properties
+END
+emma.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/eclemma/!svn/ver/292/eclemma/trunk/com.mountainminds.eclemma.core/emma.jar
+END
+about.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/eclemma/!svn/ver/243/eclemma/trunk/com.mountainminds.eclemma.core/about.html
 END
 plugin.xml
 K 25

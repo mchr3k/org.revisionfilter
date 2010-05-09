@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.revisionfilter.feature.eclemma_1.0.0.2.jar" id="org.revisionfilter.feature.eclemma" version="1.0.0.2">
+      <category name="org.revisionfilter.category"/>
+   </feature>
+   <feature url="features/org.revisionfilter.feature.utils_1.0.0.0.jar" id="org.revisionfilter.feature.utils" version="1.0.0.0">
+      <category name="org.revisionfilter.category"/>
+   </feature>
+   <feature url="features/com.mountainminds.eclemma.revisionfilter.feature_1.0.0.0.jar" id="com.mountainminds.eclemma.revisionfilter.feature" version="1.0.0.0">
+      <category name="com.mountainminds.eclemma.revisionfilterfork"/>
+   </feature>
+   <category-def name="org.revisionfilter.category" label="Revision Filters"/>
+   <category-def name="com.mountainminds.eclemma.revisionfilterfork" label="EclEmma (RevisionFilter Fork)"/>
+</site>

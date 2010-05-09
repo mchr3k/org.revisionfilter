@@ -21,7 +21,7 @@ import com.mountainminds.eclemma.internal.ui.wizards.SessionImportWizard;
  * This action launches the import session wizard.
  * 
  * @author  Marc R. Hoffmann
- * @version $Revision$
+ * @version $Revision: 95 $
  */
 public class ImportSessionAction extends Action {
   

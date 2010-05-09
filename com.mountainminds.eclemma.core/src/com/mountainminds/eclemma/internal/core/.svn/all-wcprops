@@ -3,3 +3,69 @@ svn:wc:ra_dav:version-url
 V 118
 /svnroot/eclemma/!svn/ver/871/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core
 END
+CoverageSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/eclemma/!svn/ver/39/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/CoverageSession.java
+END
+CoreMessages.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svnroot/eclemma/!svn/ver/473/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/CoreMessages.java
+END
+DebugOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/eclemma/!svn/ver/11/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/DebugOptions.java
+END
+StateFiles.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/eclemma/!svn/ver/88/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/StateFiles.java
+END
+JavaCoverageLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svnroot/eclemma/!svn/ver/199/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/JavaCoverageLoader.java
+END
+SessionImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svnroot/eclemma/!svn/ver/432/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/SessionImporter.java
+END
+EclipseVersion.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/eclemma/!svn/ver/377/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/EclipseVersion.java
+END
+EclEmmaCorePlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svnroot/eclemma/!svn/ver/523/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/EclEmmaCorePlugin.java
+END
+coremessages.properties
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svnroot/eclemma/!svn/ver/473/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/coremessages.properties
+END
+SessionExporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svnroot/eclemma/!svn/ver/418/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/SessionExporter.java
+END
+SessionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/eclemma/!svn/ver/103/eclemma/trunk/com.mountainminds.eclemma.core/src/com/mountainminds/eclemma/internal/core/SessionManager.java
+END

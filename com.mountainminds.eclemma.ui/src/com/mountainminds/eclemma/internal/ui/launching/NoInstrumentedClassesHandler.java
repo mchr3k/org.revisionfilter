@@ -3,7 +3,7 @@
  * This software is provided under the terms of the Eclipse Public License v1.0
  * See http://www.eclipse.org/legal/epl-v10.html.
  *
- * $Id$
+ * $Id: NoInstrumentedClassesHandler.java 154 2006-10-25 14:57:17Z mtnminds $
  ******************************************************************************/
 package com.mountainminds.eclemma.internal.ui.launching;
 
@@ -25,7 +25,7 @@ import com.mountainminds.eclemma.internal.ui.UIMessages;
  * to open the launch dialog directly.
  * 
  * @author  Marc R. Hoffmann
- * @version $Revision$
+ * @version $Revision: 154 $
  */
 public class NoInstrumentedClassesHandler implements IStatusHandler {
 
