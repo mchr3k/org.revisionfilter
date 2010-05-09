@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="com.mountainminds.eclemma.revisionfilter.feature"
-      label="Feature"
+      label="EclEmma (RevisionFilter Fork)"
       version="1.0.0.0"
       provider-name="MOUNTAINMINDS">
 

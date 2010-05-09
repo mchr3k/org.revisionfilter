@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
+   <description name="RevisionFilter">
+      RevisionFilter Features
+   </description>
    <feature url="features/org.revisionfilter.feature.eclemma_1.0.0.2.jar" id="org.revisionfilter.feature.eclemma" version="1.0.0.2">
       <category name="org.revisionfilter.category"/>
    </feature>
