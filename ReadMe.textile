@@ -1,5 +1,17 @@
-h1. Components
+h1. Main Projects
 
-* SVNUtils - Library which builds on top of subclipse to provide an API for determining whether Java elements have changed.
-* EclEmma - Extension to show coverage of new or changed code.
-* FindBugs - Extension to show bugs in new or changed code.
+org.revisionfilter.*
+* utils - Library which builds on top of subclipse to provide an API for determining whether IResources have changed.
+* eclemma - Extension to show coverage of new or changed code.
+* feature.* - Features wrapping the plugins
+* updatesite - Update site for Main Projects
+
+com.mountainminds.eclemma.* - This is a modified checkout of the EclEmma project which includes a new coverage filter extension point. 
+
+h1. Other Projects (Needs major refactoring, docs etc)
+
+gb.svnfilter.*
+* findbugs - Extension to show bugs in new or changed code.
+* junit - Extension which uses data collected from a special Java Agent to implement a command which runs only those junit tests which exercise new/unchanged code. 
+
+FindBugs* - This is a modified checkout of the FindBugs project which includes a new Findbugs filter extension point. 
