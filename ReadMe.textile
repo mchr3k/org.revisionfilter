@@ -8,7 +8,7 @@ org.revisionfilter.*
 
 com.mountainminds.eclemma.* - This is a modified checkout of the EclEmma project which includes a new coverage filter extension point. 
 
-h1. Other Projects (Needs major refactoring, docs etc)
+h1. Other Projects (Need major refactoring, docs etc or still in the prototype stage)
 
 gb.svnfilter.*
 * findbugs - Extension to show bugs in new or changed code.
