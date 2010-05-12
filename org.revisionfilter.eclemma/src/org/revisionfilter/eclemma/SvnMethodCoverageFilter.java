@@ -1,5 +1,7 @@
 package org.revisionfilter.eclemma;
+import java.util.Map;
 import java.util.Set;
+import java.util.Map.Entry;
 
 import org.eclipse.core.resources.IFile;
 import org.eclipse.core.resources.IResource;
@@ -8,7 +10,7 @@ import org.eclipse.jdt.core.ISourceRange;
 import org.eclipse.jdt.core.ISourceReference;
 import org.eclipse.jdt.core.JavaModelException;
 import org.revisionfilter.utils.console.RevisionFilterConsoleFactory;
-import org.revisionfilter.utils.rcs.CachedRevisionSystem;
+import org.revisionfilter.utils.rcs.CachedLineChangeSystem;
 import org.revisionfilter.utils.rcs.svn.SVNRevisionSystem;
 
 import com.mountainminds.eclemma.core.analysis.ICoverageFilter;
@@ -18,7 +20,8 @@ import com.mountainminds.eclemma.core.analysis.ICoverageFilter;
  */
 public class SvnMethodCoverageFilter implements ICoverageFilter
 {
-  CachedRevisionSystem revisionChecker = null;
+  CachedLineChangeSystem lineChecker = null;
+  SVNRevisionSystem revisionChecker = null;
 
   @Override
   public String getName()
@@ -41,8 +44,9 @@ public class SvnMethodCoverageFilter implements ICoverageFilter
   @Override
   public void resetFilter()
   {
-    RevisionFilterConsoleFactory.outputLine("EclEmma Method filter reset");
-    revisionChecker = new CachedRevisionSystem(new SVNRevisionSystem());
+    RevisionFilterConsoleFactory.outputLine("EclEmma " + getName() + " filter reset");
+    revisionChecker = new SVNRevisionSystem();
+    lineChecker = new CachedLineChangeSystem(revisionChecker);
   }
 
   @Override
@@ -67,11 +71,14 @@ public class SvnMethodCoverageFilter implements ICoverageFilter
           {
             ISourceRange sourceRange = sourceRef.getSourceRange();
             IFile elementFile = (IFile)elementResource;
-            Set<Integer> dirtyLines = revisionChecker.getDirtyLines(elementFile);          
+            Set<Integer> dirtyLines = lineChecker.getDirtyLines(elementFile);
+            Map<Integer, Integer> lineOffsets = lineChecker.getLineOffsets(elementFile);
+            int sourceLineStart = getSourceLine(sourceRange.getOffset(), lineOffsets);
+            int sourceLineEnd = getSourceLine(sourceRange.getOffset() + sourceRange.getLength(), lineOffsets);
             for (Integer dirtyLine : dirtyLines)
             {
-              if ((sourceRange.getOffset() <= dirtyLine.intValue()) &&
-                  (dirtyLine.intValue() <= (sourceRange.getOffset() + sourceRange.getOffset())))
+              if ((sourceLineStart <= dirtyLine.intValue()) &&
+                  (dirtyLine.intValue() <= sourceLineEnd))
               {
                 filterElement = false;
                 break;
@@ -86,6 +93,20 @@ public class SvnMethodCoverageFilter implements ICoverageFilter
       }
     }
     return filterElement;
+  }
+
+  private int getSourceLine(int offset, Map<Integer, Integer> lineOffsets)
+  {
+    for (Entry<Integer, Integer> offsetEntry : lineOffsets.entrySet())
+    {
+      int sourceOffset = offsetEntry.getKey();
+      int sourceLine = offsetEntry.getKey();
+      if (sourceOffset > offset)
+      {
+        return (sourceLine - 1);
+      }
+    }
+    return -1;
   }
 
   @Override

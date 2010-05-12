@@ -24,7 +24,7 @@ public class DiffEngine
     
     // Perform string diff
     diff_match_patch diffEngine = new diff_match_patch();
-    LinkedList<Diff> fileDiffs = diffEngine.diff_main(currentText, baseText);
+    LinkedList<Diff> fileDiffs = diffEngine.diff_main(baseText, currentText);
     diffEngine.diff_cleanupSemantic(fileDiffs);
     
     // Compute list of changed lines based on string diff
