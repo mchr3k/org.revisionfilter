@@ -6,7 +6,6 @@ import java.util.concurrent.ConcurrentHashMap;
 
 import org.eclipse.core.resources.IFile;
 import org.eclipse.core.resources.IResource;
-import org.revisionfilter.utils.rcs.svn.SVNRevisionSystem;
 
 /**
  * Wrap another revision control system and cache all results. The cache cannot
@@ -17,27 +16,14 @@ public class CachedRevisionSystem implements IRevisionSystem
   private final IRevisionSystem system;
   private final Map<String, Set<Integer>> cachedDirtyLines = new ConcurrentHashMap<String, Set<Integer>>();
 
-  public static enum RevisionSystem
-  {
-    SVN
-  }
-
-  /**
-   * Default cTor - Assume we are using SVN
-   */
-  public CachedRevisionSystem()
-  {
-    this(RevisionSystem.SVN);
-  }
-
   /**
    * cTor for a specific type of backend
    * 
    * @param type
    */
-  public CachedRevisionSystem(RevisionSystem type)
+  public CachedRevisionSystem(IRevisionSystem wrappedSystem)
   {
-    system = new SVNRevisionSystem();
+    system = wrappedSystem;
   }
 
   @Override

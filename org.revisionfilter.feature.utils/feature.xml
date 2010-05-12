@@ -2,7 +2,7 @@
 <feature
       id="org.revisionfilter.feature.utils"
       label="RevisionFilter Utils"
-      version="1.0.0.0">
+      version="1.0.0.1">
 
    <description>
       Add the following features.
@@ -22,7 +22,7 @@
          id="org.revisionfilter.utils"
          download-size="0"
          install-size="0"
-         version="1.0.0.0"
+         version="1.0.0.1"
          unpack="false"/>
 
 </feature>

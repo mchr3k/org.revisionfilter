@@ -1,6 +1,7 @@
 package org.revisionfilter.utils.filter;
 
 import org.eclipse.core.resources.IResource;
+import org.eclipse.jdt.core.IJavaElement;
 import org.eclipse.jface.viewers.Viewer;
 import org.eclipse.jface.viewers.ViewerFilter;
 import org.revisionfilter.utils.rcs.svn.SVNRevisionSystem;
@@ -14,21 +15,27 @@ public class SVNCleanElementFilter extends ViewerFilter
   public boolean select(Viewer xiViewer,
                         Object xiParentElement,
                         Object xiElement) {
-    boolean hideElement = false;
+    boolean showElement = true;
 
-    SVNRevisionSystem diffManager = new SVNRevisionSystem();
+    SVNRevisionSystem revisionSystem = new SVNRevisionSystem();
 
-    if (xiElement instanceof IResource)
+    IResource resource = null;
+    if (xiElement instanceof IJavaElement)
     {
-      IResource element = (IResource)xiElement;
-      hideElement = !diffManager.isDirty(element, 
-                                         SVNRevisionSystem.DIRTY_ADDED | 
-                                         SVNRevisionSystem.DIRTY_UNVERSIONED);
+      IJavaElement element = (IJavaElement)xiElement;
+      resource = element.getResource();
     }
-    else
+    else if (xiElement instanceof IResource)
     {
-      hideElement = true;
+      resource = (IResource)xiElement;
     }
-    return hideElement;
+    
+    if (resource != null)
+    {
+      showElement = revisionSystem.isDirty(resource, 
+                                        SVNRevisionSystem.DIRTY_ADDED);
+    }
+    
+    return showElement;
   }
 }

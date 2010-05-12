@@ -1,8 +1,14 @@
 package org.revisionfilter.eclemma;
+import java.util.Set;
+
+import org.eclipse.core.resources.IFile;
+import org.eclipse.core.resources.IResource;
 import org.eclipse.jdt.core.IJavaElement;
+import org.eclipse.jdt.core.ISourceRange;
+import org.eclipse.jdt.core.ISourceReference;
+import org.eclipse.jdt.core.JavaModelException;
 import org.revisionfilter.utils.console.RevisionFilterConsoleFactory;
 import org.revisionfilter.utils.rcs.CachedRevisionSystem;
-import org.revisionfilter.utils.rcs.CachedRevisionSystem.RevisionSystem;
 import org.revisionfilter.utils.rcs.svn.SVNRevisionSystem;
 
 import com.mountainminds.eclemma.core.analysis.ICoverageFilter;
@@ -12,7 +18,7 @@ import com.mountainminds.eclemma.core.analysis.ICoverageFilter;
  */
 public class SvnMethodCoverageFilter implements ICoverageFilter
 {
-  private CachedRevisionSystem revisionChecker = null;
+  CachedRevisionSystem revisionChecker = null;
 
   @Override
   public String getName()
@@ -36,20 +42,50 @@ public class SvnMethodCoverageFilter implements ICoverageFilter
   public void resetFilter()
   {
     RevisionFilterConsoleFactory.outputLine("EclEmma Method filter reset");
-    revisionChecker = new CachedRevisionSystem(RevisionSystem.SVN);
+    revisionChecker = new CachedRevisionSystem(new SVNRevisionSystem());
   }
 
   @Override
   public boolean isElementFiltered(IJavaElement element)
   {
-    boolean ret = false;
+    boolean filterElement = true;
     if (revisionChecker != null)
     {
-      ret = !revisionChecker.isDirty(element.getResource(), 
-                                 SVNRevisionSystem.DIRTY_ADDED | 
-                                 SVNRevisionSystem.DIRTY_UNVERSIONED);
+      filterElement = !revisionChecker.isDirty(element.getResource(), 
+                                                SVNRevisionSystem.DIRTY_ADDED | 
+                                                SVNRevisionSystem.DIRTY_UNVERSIONED);
+      if (!filterElement && (element instanceof ISourceReference))
+      {
+        ISourceReference sourceRef = (ISourceReference)element;
+        IResource elementResource = element.getResource();
+        try
+        {
+          if ((sourceRef != null) &&
+              (sourceRef.getSourceRange() != null) &&
+              (elementResource != null) && 
+              (elementResource instanceof IFile))
+          {
+            ISourceRange sourceRange = sourceRef.getSourceRange();
+            IFile elementFile = (IFile)elementResource;
+            Set<Integer> dirtyLines = revisionChecker.getDirtyLines(elementFile);          
+            for (Integer dirtyLine : dirtyLines)
+            {
+              if ((sourceRange.getOffset() <= dirtyLine.intValue()) &&
+                  (dirtyLine.intValue() <= (sourceRange.getOffset() + sourceRange.getOffset())))
+              {
+                filterElement = false;
+                break;
+              }
+            }
+          }
+        }
+        catch (JavaModelException ex)
+        {
+          // Throw away
+        }
+      }
     }
-    return ret;
+    return filterElement;
   }
 
   @Override
