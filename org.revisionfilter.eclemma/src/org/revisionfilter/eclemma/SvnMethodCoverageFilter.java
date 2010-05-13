@@ -1,7 +1,6 @@
 package org.revisionfilter.eclemma;
-import java.util.Map;
+import java.util.List;
 import java.util.Set;
-import java.util.Map.Entry;
 
 import org.eclipse.core.resources.IFile;
 import org.eclipse.core.resources.IResource;
@@ -11,6 +10,7 @@ import org.eclipse.jdt.core.ISourceReference;
 import org.eclipse.jdt.core.JavaModelException;
 import org.revisionfilter.utils.console.RevisionFilterConsoleFactory;
 import org.revisionfilter.utils.rcs.CachedLineChangeSystem;
+import org.revisionfilter.utils.rcs.impl.LineOffsetEngine.OffsetLineMapping;
 import org.revisionfilter.utils.rcs.svn.SVNRevisionSystem;
 
 import com.mountainminds.eclemma.core.analysis.ICoverageFilter;
@@ -52,6 +52,7 @@ public class SvnMethodCoverageFilter implements ICoverageFilter
   @Override
   public boolean isElementFiltered(IJavaElement element)
   {
+    // Assume all elements are filtered
     boolean filterElement = true;
     if (revisionChecker != null)
     {
@@ -60,6 +61,8 @@ public class SvnMethodCoverageFilter implements ICoverageFilter
                                                 SVNRevisionSystem.DIRTY_UNVERSIONED);
       if (!filterElement && (element instanceof ISourceReference))
       {
+        // Assume all source elements are filtered
+        filterElement = true;
         ISourceReference sourceRef = (ISourceReference)element;
         IResource elementResource = element.getResource();
         try
@@ -72,7 +75,7 @@ public class SvnMethodCoverageFilter implements ICoverageFilter
             ISourceRange sourceRange = sourceRef.getSourceRange();
             IFile elementFile = (IFile)elementResource;
             Set<Integer> dirtyLines = lineChecker.getDirtyLines(elementFile);
-            Map<Integer, Integer> lineOffsets = lineChecker.getLineOffsets(elementFile);
+            List<OffsetLineMapping> lineOffsets = lineChecker.getLineOffsets(elementFile);
             int sourceLineStart = getSourceLine(sourceRange.getOffset(), lineOffsets);
             int sourceLineEnd = getSourceLine(sourceRange.getOffset() + sourceRange.getLength(), lineOffsets);
             for (Integer dirtyLine : dirtyLines)
@@ -89,24 +92,26 @@ public class SvnMethodCoverageFilter implements ICoverageFilter
         catch (JavaModelException ex)
         {
           // Throw away
+          RevisionFilterConsoleFactory.outputLine(ex.toString());
+          ex.printStackTrace();
         }
       }
     }
     return filterElement;
   }
 
-  private int getSourceLine(int offset, Map<Integer, Integer> lineOffsets)
+  private int getSourceLine(int offset, List<OffsetLineMapping> lineOffsets)
   {
-    for (Entry<Integer, Integer> offsetEntry : lineOffsets.entrySet())
+    int latestLine = 1;
+    for (OffsetLineMapping mapping : lineOffsets)
     {
-      int sourceOffset = offsetEntry.getKey();
-      int sourceLine = offsetEntry.getKey();
-      if (sourceOffset > offset)
+      latestLine = mapping.lineNo;
+      if (mapping.offset > offset)
       {
-        return (sourceLine - 1);
+        return (mapping.lineNo - 1);
       }
     }
-    return -1;
+    return latestLine;
   }
 
   @Override

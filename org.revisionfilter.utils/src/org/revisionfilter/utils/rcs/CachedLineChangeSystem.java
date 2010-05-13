@@ -1,10 +1,12 @@
 package org.revisionfilter.utils.rcs;
 
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.Reader;
 import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
@@ -13,6 +15,7 @@ import org.eclipse.core.resources.IFile;
 import org.revisionfilter.utils.console.RevisionFilterConsoleFactory;
 import org.revisionfilter.utils.rcs.impl.DiffEngine;
 import org.revisionfilter.utils.rcs.impl.LineOffsetEngine;
+import org.revisionfilter.utils.rcs.impl.LineOffsetEngine.OffsetLineMapping;
 
 /**
  * Wrap another revision control system and cache all results. The cache cannot
@@ -22,7 +25,7 @@ public class CachedLineChangeSystem
 {
   private final IRevisionSystem system;
   private final Map<String, Set<Integer>> cachedDirtyLines = new ConcurrentHashMap<String, Set<Integer>>();
-  private final Map<String, Map<Integer, Integer>> cachedLineOffsets = new ConcurrentHashMap<String, Map<Integer, Integer>>();
+  private final Map<String, List<OffsetLineMapping>> cachedLineOffsets = new ConcurrentHashMap<String, List<OffsetLineMapping>>();
 
   /**
    * cTor for a specific type of backend
@@ -75,9 +78,9 @@ public class CachedLineChangeSystem
    * @param file
    * @return Map from string offset to line number
    */
-  public Map<Integer, Integer> getLineOffsets(IFile file)
+  public List<OffsetLineMapping> getLineOffsets(IFile file)
   {
-    Map<Integer, Integer> lineOffsets = new ConcurrentHashMap<Integer, Integer>();
+    List<OffsetLineMapping> lineOffsets = new LinkedList<OffsetLineMapping>();
     
     // Firewall args
     if ((file != null) && (file.getLocation() != null))
@@ -114,11 +117,12 @@ public class CachedLineChangeSystem
   public static String getFileContents(InputStream fileStream) throws IOException
   {
     StringBuffer fileString = new StringBuffer();
-    BufferedReader fileReader = new BufferedReader(new InputStreamReader(fileStream));
-    String fileLine;
-    while ((fileLine = fileReader.readLine()) != null)
+    Reader fileReader = new InputStreamReader(fileStream);
+    int charsRead;
+    char[] inputBuf = new char[512];
+    while ((charsRead = fileReader.read(inputBuf)) != -1)
     {
-      fileString.append(fileLine + "\n");
+      fileString.append(inputBuf, 0, charsRead);
     }
     return fileString.toString();
   }
